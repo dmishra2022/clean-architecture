@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>training.clean</groupId>
+    <artifactId>screening-clean-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>World-Check training: Screening &amp; Case service (Clean Architecture)</name>
+    <description>
+        DDD + Clean Architecture + Micronaut reference implementation. One Maven module per ring, so the
+        dependency rule is enforced by the compiler: an inner module cannot even see an outer one.
+    </description>
+
+    <!-- Order = the rings from the inside out. Each module may depend only on modules listed above it. -->
+    <modules>
+        <module>screening-entities</module>
+        <module>screening-usecases</module>
+        <module>screening-interface-adapters</module>
+        <module>screening-app</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.release>21</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <micronaut.platform.version>4.10.0</micronaut.platform.version>
+        <micronaut.core.version>4.10.7</micronaut.core.version>
+        <micronaut.data.version>4.14.0</micronaut.data.version>
+        <micronaut.serde.version>2.16.1</micronaut.serde.version>
+        <micronaut.validation.version>4.12.0</micronaut.validation.version>
+        <archunit.version>1.4.1</archunit.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>training.clean</groupId>
+                <artifactId>screening-entities</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>training.clean</groupId>
+                <artifactId>screening-usecases</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>training.clean</groupId>
+                <artifactId>screening-interface-adapters</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <!-- Version management only: importing the BOM adds no Micronaut dependency to the inner rings. -->
+            <dependency>
+                <groupId>io.micronaut.platform</groupId>
+                <artifactId>micronaut-platform</artifactId>
+                <version>${micronaut.platform.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!-- Every ring gets the same plain test tools. -->
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.14.0</version>
+                    <configuration>
+                        <compilerArgs>
+                            <arg>-parameters</arg>
+                        </compilerArgs>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.5.3</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>exec-maven-plugin</artifactId>
+                    <version>3.5.0</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

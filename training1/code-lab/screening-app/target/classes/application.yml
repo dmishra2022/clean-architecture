@@ -1,0 +1,42 @@
+micronaut:
+  application:
+    name: screening-case-service-clean
+  server:
+    port: 8081
+  http:
+    services:
+      reference-data:
+        url: http://localhost:9090
+        read-timeout: 2s
+  serde:
+    serialization:
+      inclusion: non_null     # omit nulls, keep empty lists: a closed case shows "allowedActions": []
+
+datasources:
+  default:
+    url: jdbc:h2:mem:screening-clean;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ''
+    dialect: H2
+
+flyway:
+  datasources:
+    default:
+      enabled: true
+
+screening:
+  matching:
+    threshold: 80
+  reference-data:
+    mode: in-memory        # in-memory | http  (MainWiring picks the gateway; no use case changes)
+  events:
+    sink: log
+  outbox:
+    relay-interval: 2s
+    initial-delay: 2s
+
+endpoints:
+  health:
+    enabled: true
+    details-visible: ANONYMOUS

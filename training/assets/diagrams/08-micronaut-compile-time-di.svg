@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1320 760" width="1320" height="760" role="img" aria-label="Micronaut compile-time dependency injection">
+  <title>Micronaut compile-time dependency injection</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Micronaut: dependency injection decided at compile time</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">Annotation processors generate bean metadata, so runtime does no classpath scanning and no reflection</tspan></text>
+  <line x1="40" y1="92" x2="1280" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="40" y="135" font-size="18" font-weight="800" fill="#2A9D8F" text-anchor="start"><tspan x="40" dy="0">Micronaut</tspan></text>
+  <rect x="40" y="155" width="280" height="160" rx="10" fill="#5B6B7F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="180" y="205.435" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="180" dy="0">Your source</tspan></text>
+  <text x="180" y="222.655" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="180" dy="0">@Singleton @Factory</tspan></text>
+  <text x="180" y="239.875" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="180" dy="0">@Controller @Client</tspan></text>
+  <text x="180" y="257.095" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="180" dy="0">@JdbcRepository</tspan></text>
+  <text x="180" y="274.31500000000005" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="180" dy="0">@Serdeable @Valid</tspan></text>
+  <line x1="322" y1="235" x2="358" y2="235" stroke="#2A9D8F" stroke-width="3" marker-end="url(#arrow-teal)"/>
+  <rect x="360" y="155" width="280" height="160" rx="10" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="500" y="205.435" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="500" dy="0">javac + processors</tspan></text>
+  <text x="500" y="222.655" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="500" dy="0">micronaut-inject-java</tspan></text>
+  <text x="500" y="239.875" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="500" dy="0">micronaut-data-processor</tspan></text>
+  <text x="500" y="257.095" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="500" dy="0">micronaut-serde-processor</tspan></text>
+  <text x="500" y="274.31500000000005" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="500" dy="0">validation-processor</tspan></text>
+  <line x1="642" y1="235" x2="678" y2="235" stroke="#2A9D8F" stroke-width="3" marker-end="url(#arrow-teal)"/>
+  <rect x="680" y="155" width="280" height="160" rx="10" fill="#2A9D8F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="820" y="205.435" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="820" dy="0">Generated classes</tspan></text>
+  <text x="820" y="222.655" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="820" dy="0">$CaseController$Definition</tspan></text>
+  <text x="820" y="239.875" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="820" dy="0">$…$Introspection</tspan></text>
+  <text x="820" y="257.095" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="820" dy="0">SQL for findByCaseId…</tspan></text>
+  <text x="820" y="274.31500000000005" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="820" dy="0">serializers, validators</tspan></text>
+  <line x1="962" y1="235" x2="998" y2="235" stroke="#2A9D8F" stroke-width="3" marker-end="url(#arrow-teal)"/>
+  <rect x="1000" y="155" width="280" height="160" rx="10" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1140" y="205.435" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1140" dy="0">Runtime BeanContext</tspan></text>
+  <text x="1140" y="222.655" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1140" dy="0">loads definitions via</tspan></text>
+  <text x="1140" y="239.875" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1140" dy="0">ServiceLoader (indexed)</tspan></text>
+  <text x="1140" y="257.095" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1140" dy="0">calls constructors directly</tspan></text>
+  <text x="1140" y="274.31500000000005" font-size="12.3" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1140" dy="0">no proxies via reflection</tspan></text>
+  <text x="40" y="368" font-size="18" font-weight="800" fill="#C8553D" text-anchor="start"><tspan x="40" dy="0">Reflection-based DI (for comparison)</tspan></text>
+  <rect x="40" y="388" width="280" height="110" rx="10" fill="#5B6B7F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="180" y="430.375" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="180" dy="0">Your source</tspan></text>
+  <text x="180" y="447.875" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="180" dy="0">annotations kept</tspan></text>
+  <text x="180" y="465.375" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="180" dy="0">for runtime</tspan></text>
+  <line x1="322" y1="443" x2="358" y2="443" stroke="#C8553D" stroke-width="3" marker-end="url(#arrow-red)"/>
+  <rect x="360" y="388" width="280" height="110" rx="10" fill="#C8553D" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="500" y="430.375" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="500" dy="0">Startup: scan classpath</tspan></text>
+  <text x="500" y="447.875" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="500" dy="0">read every class</tspan></text>
+  <text x="500" y="465.375" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="500" dy="0">find annotations</tspan></text>
+  <line x1="642" y1="443" x2="678" y2="443" stroke="#C8553D" stroke-width="3" marker-end="url(#arrow-red)"/>
+  <rect x="680" y="388" width="280" height="110" rx="10" fill="#C8553D" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="820" y="430.375" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="820" dy="0">Startup: reflection</tspan></text>
+  <text x="820" y="447.875" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="820" dy="0">resolve constructors</tspan></text>
+  <text x="820" y="465.375" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="820" dy="0">build bytecode proxies</tspan></text>
+  <line x1="962" y1="443" x2="998" y2="443" stroke="#C8553D" stroke-width="3" marker-end="url(#arrow-red)"/>
+  <rect x="1000" y="388" width="280" height="110" rx="10" fill="#C8553D" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1140" y="430.375" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1140" dy="0">Metadata in heap</tspan></text>
+  <text x="1140" y="447.875" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1140" dy="0">caches, proxies</tspan></text>
+  <text x="1140" y="465.375" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1140" dy="0">grow with app size</tspan></text>
+  <rect x="40" y="530" width="1240" height="200" rx="12" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <text x="60" y="560" font-size="15" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="60" dy="0">What that buys a regulated, high-scale platform</tspan></text>
+  <text x="60" y="592" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">Fast startup, low memory:</tspan></text>
+  <text x="300" y="592" font-size="13.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="300" dy="0">scale-out pods start quickly; cheaper per instance</tspan></text>
+  <text x="60" y="619" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">Errors at build time:</tspan></text>
+  <text x="300" y="619" font-size="13.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="300" dy="0">missing bean / bad query method name fails compilation, not production</tspan></text>
+  <text x="60" y="646" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">GraalVM native-image ready:</tspan></text>
+  <text x="300" y="646" font-size="13.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="300" dy="0">little reflection config needed</tspan></text>
+  <text x="60" y="673" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">Predictable AOP:</tspan></text>
+  <text x="300" y="673" font-size="13.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="300" dy="0">@Transactional, @Validated, @Retryable woven at compile time</tspan></text>
+  <text x="60" y="700" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">Trade-off:</tspan></text>
+  <text x="300" y="700" font-size="13.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="300" dy="0">annotation processors must be on the compiler path; incremental builds matter</tspan></text>
+
+</svg>

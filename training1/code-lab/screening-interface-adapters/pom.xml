@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>training.clean</groupId>
+        <artifactId>screening-clean-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>screening-interface-adapters</artifactId>
+    <name>Ring 3 · Interface adapters</name>
+    <description>
+        Controllers, presenters, view models and gateway implementations: translation between the use cases'
+        data and the shapes the web, the database and other systems use. Still plain Java: no framework.
+    </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>training.clean</groupId>
+            <artifactId>screening-usecases</artifactId>
+        </dependency>
+    </dependencies>
+</project>

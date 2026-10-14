@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1280 820" width="1280" height="820" role="img" aria-label="Module and package structure">
+  <title>Module and package structure</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-ent" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-uc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-uc" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ia" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-ia" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fw" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-entDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-entDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ucDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-ucDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-iaDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-iaDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fwDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fwDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Code lab structure: one Maven module per ring</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">Packages scream the domain; the module boundary makes the dependency rule a compiler error</tspan></text>
+  <line x1="40" y1="92" x2="1240" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <rect x="40" y="116" width="290" height="660" rx="12" fill="#FDF4DA" stroke="#F2C14E" stroke-width="2"/>
+  <text x="54" y="142" font-size="12" font-weight="800" fill="#8A6A12" text-anchor="start"><tspan x="54" dy="0">ENTITIES</tspan></text>
+  <text x="54" y="164" font-size="14.5" font-weight="800" fill="#1D2733" text-anchor="start" class="mono"><tspan x="54" dy="0">screening-entities</tspan></text>
+  <text x="54" y="194" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="54" dy="0">entities/</tspan><tspan x="54" dy="18.6">  DomainException</tspan><tspan x="54" dy="18.6">  model/</tspan><tspan x="54" dy="18.6">    ScreeningCase  Match</tspan><tspan x="54" dy="18.6">    CaseSnapshot  MatchSnapshot</tspan><tspan x="54" dy="18.6">    CaseId MatchId ClientGroupId</tspan><tspan x="54" dy="18.6">    AnalystId PartyName Party</tspan><tspan x="54" dy="18.6">    CountryCode EntityType</tspan><tspan x="54" dy="18.6">    MatchScore Resolution</tspan><tspan x="54" dy="18.6">    ResolutionRationale</tspan><tspan x="54" dy="18.6">    ReferenceProfile RiskCategory</tspan><tspan x="54" dy="18.6">    CaseStatus CaseOutcome</tspan><tspan x="54" dy="18.6">  policy/</tspan><tspan x="54" dy="18.6">    NameMatchingPolicy</tspan><tspan x="54" dy="18.6">    MatchEvaluation</tspan><tspan x="54" dy="18.6">  event/</tspan><tspan x="54" dy="18.6">    DomainEvent (sealed)</tspan><tspan x="54" dy="18.6">    CaseOpened CaseScreened</tspan><tspan x="54" dy="18.6">    MatchResolved CaseClosed</tspan></text>
+  <rect x="50" y="706" width="270" height="56" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="62" y="728" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="62" dy="0">tests: ScreeningCaseTest,</tspan><tspan x="62" dy="16.799999999999997">NameMatchingPolicyTest</tspan></text>
+  <rect x="342" y="116" width="290" height="660" rx="12" fill="#FBE7E1" stroke="#E07A5F" stroke-width="2"/>
+  <text x="356" y="142" font-size="12" font-weight="800" fill="#9C3D24" text-anchor="start"><tspan x="356" dy="0">USE CASES</tspan></text>
+  <text x="356" y="164" font-size="14.5" font-weight="800" fill="#1D2733" text-anchor="start" class="mono"><tspan x="356" dy="0">screening-usecases</tspan></text>
+  <text x="356" y="194" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="356" dy="0">usecases/</tspan><tspan x="356" dy="18.6">  opencase/</tspan><tspan x="356" dy="18.6">    OpenCase  OpenCaseRequest</tspan><tspan x="356" dy="18.6">    OpenCaseInteractor</tspan><tspan x="356" dy="18.6">  screencase/ resolvematch/</tspan><tspan x="356" dy="18.6">  closecase/ viewcase/</tspan><tspan x="356" dy="18.6">  workqueue/</tspan><tspan x="356" dy="18.6">    ListWorkQueueInteractor</tspan><tspan x="356" dy="18.6">    WorkQueueGateway …</tspan><tspan x="356" dy="18.6">  shared/</tspan><tspan x="356" dy="18.6">    CaseOutputBoundary</tspan><tspan x="356" dy="18.6">    CaseResponse  Outcomes</tspan><tspan x="356" dy="18.6">    CaseLookup  RequestValues</tspan><tspan x="356" dy="18.6">  gateway/</tspan><tspan x="356" dy="18.6">    CaseGateway</tspan><tspan x="356" dy="18.6">    ReferenceDataGateway</tspan><tspan x="356" dy="18.6">    EventOutboxGateway</tspan><tspan x="356" dy="18.6">    TransactionRunner</tspan><tspan x="356" dy="18.6">    IdempotencyGateway</tspan></text>
+  <rect x="352" y="706" width="270" height="56" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="364" y="728" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="364" dy="0">tests: CaseUseCasesTest,</tspan><tspan x="364" dy="16.799999999999997">ListWorkQueueInteractorTest</tspan></text>
+  <rect x="644" y="116" width="290" height="660" rx="12" fill="#E6F3E4" stroke="#5FAD56" stroke-width="2"/>
+  <text x="658" y="142" font-size="12" font-weight="800" fill="#2F6B28" text-anchor="start"><tspan x="658" dy="0">INTERFACE ADAPTERS</tspan></text>
+  <text x="658" y="164" font-size="14.5" font-weight="800" fill="#1D2733" text-anchor="start" class="mono"><tspan x="658" dy="0">screening-interface-adapters</tspan></text>
+  <text x="658" y="194" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="658" dy="0">adapters/</tspan><tspan x="658" dy="18.6">  web/</tspan><tspan x="658" dy="18.6">    CaseController  Forms</tspan><tspan x="658" dy="18.6">    CasePresenter  CaseJson</tspan><tspan x="658" dy="18.6">    ViewModel  ProblemJson</tspan><tspan x="658" dy="18.6">    WorkQueueController …</tspan><tspan x="658" dy="18.6">  persistence/</tspan><tspan x="658" dy="18.6">    SqlCaseGateway</tspan><tspan x="658" dy="18.6">    CaseRecords  CaseRecord</tspan><tspan x="658" dy="18.6">    CaseRecordMapper</tspan><tspan x="658" dy="18.6">  events/</tspan><tspan x="658" dy="18.6">    OutboxEventGateway</tspan><tspan x="658" dy="18.6">    EventJson  OutboxRelay</tspan><tspan x="658" dy="18.6">    IntegrationEventSink</tspan><tspan x="658" dy="18.6">  reference/</tspan><tspan x="658" dy="18.6">    InMemoryReferenceData</tspan><tspan x="658" dy="18.6">    ProfileTranslator</tspan><tspan x="658" dy="18.6">    RemoteReferenceData</tspan></text>
+  <rect x="654" y="706" width="270" height="56" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="666" y="728" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="666" dy="0">tests: CasePresenterTest,</tspan><tspan x="666" dy="16.799999999999997">CaseControllerTest, …</tspan></text>
+  <rect x="946" y="116" width="290" height="660" rx="12" fill="#E2EDF7" stroke="#3E7CB1" stroke-width="2"/>
+  <text x="960" y="142" font-size="12" font-weight="800" fill="#1F4E79" text-anchor="start"><tspan x="960" dy="0">FRAMEWORKS &amp; DRIVERS</tspan></text>
+  <text x="960" y="164" font-size="14.5" font-weight="800" fill="#1D2733" text-anchor="start" class="mono"><tspan x="960" dy="0">screening-app</tspan></text>
+  <text x="960" y="194" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="960" dy="0">app/</tspan><tspan x="960" dy="18.6">  Application</tspan><tspan x="960" dy="18.6">  config/</tspan><tspan x="960" dy="18.6">    MainWiring  (@Factory)</tspan><tspan x="960" dy="18.6">    MatchingProperties</tspan><tspan x="960" dy="18.6">    SerdeImports</tspan><tspan x="960" dy="18.6">  web/</tspan><tspan x="960" dy="18.6">    CaseEndpoint</tspan><tspan x="960" dy="18.6">    WorkQueueEndpoint</tspan><tspan x="960" dy="18.6">    Responses</tspan><tspan x="960" dy="18.6">    MalformedBodyHandler</tspan><tspan x="960" dy="18.6">  persistence/</tspan><tspan x="960" dy="18.6">    CaseRow MatchRow …</tspan><tspan x="960" dy="18.6">    Repositories</tspan><tspan x="960" dy="18.6">    MicronautCaseRecords</tspan><tspan x="960" dy="18.6">    MicronautTransactionRunner</tspan><tspan x="960" dy="18.6">  events/  reference/</tspan><tspan x="960" dy="18.6">resources/</tspan><tspan x="960" dy="18.6">  application.yml  db/migration</tspan></text>
+  <rect x="956" y="706" width="270" height="56" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="968" y="728" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="968" dy="0">tests: CaseApiTest,</tspan><tspan x="968" dy="16.799999999999997">CleanArchitectureTest</tspan></text>
+  <line x1="338" y1="150" x2="334" y2="150" stroke="#1D2733" stroke-width="2.5" marker-end="url(#arrow-ink)"/>
+  <line x1="640" y1="150" x2="636" y2="150" stroke="#1D2733" stroke-width="2.5" marker-end="url(#arrow-ink)"/>
+  <line x1="942" y1="150" x2="938" y2="150" stroke="#1D2733" stroke-width="2.5" marker-end="url(#arrow-ink)"/>
+
+</svg>

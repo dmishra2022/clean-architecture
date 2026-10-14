@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1320 760" width="1320" height="760" role="img" aria-label="Ongoing monitoring process manager">
+  <title>Ongoing monitoring process manager</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Across contexts: ongoing monitoring as a process manager</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">Eventual consistency between aggregates and contexts, driven by events and commands</tspan></text>
+  <line x1="40" y1="92" x2="1280" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <rect x="40" y="120" width="1240" height="124" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1.5"/>
+  <rect x="40" y="120" width="210" height="124" rx="8" fill="#2A9D8F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="145" y="177.8" font-size="14" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="145" dy="0">Risk Intelligence</tspan><tspan x="145" dy="17.5">Data</tspan></text>
+  <rect x="40" y="260" width="1240" height="124" rx="8" fill="#EEF2F6" stroke="#C9D3DE" stroke-width="1.5"/>
+  <rect x="40" y="260" width="210" height="124" rx="8" fill="#6D5BD0" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="145" y="317.8" font-size="14" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="145" dy="0">Ongoing Monitoring</tspan><tspan x="145" dy="17.5">(process manager)</tspan></text>
+  <rect x="40" y="400" width="1240" height="124" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1.5"/>
+  <rect x="40" y="400" width="210" height="124" rx="8" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="145" y="466.55" font-size="14" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="145" dy="0">Screening &amp; Case</tspan></text>
+  <rect x="40" y="540" width="1240" height="124" rx="8" fill="#EEF2F6" stroke="#C9D3DE" stroke-width="1.5"/>
+  <rect x="40" y="540" width="210" height="124" rx="8" fill="#5B6B7F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="145" y="606.55" font-size="14" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="145" dy="0">Notifications</tspan></text>
+  <rect x="290" y="140" width="190" height="84" rx="10" fill="#fff" stroke="#2A9D8F" stroke-width="2.2" filter="url(#shadow)"/>
+  <text x="385" y="178.16" font-size="12.8" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="385" dy="0">ProfileUpdated</tspan><tspan x="385" dy="16">(WC-1001 new alias)</tspan></text>
+  <circle cx="290" cy="140" r="13" fill="#2A9D8F"/>
+  <text x="290" y="144.5" font-size="12.5" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="290" dy="0">1</tspan></text>
+  <rect x="520" y="280" width="190" height="84" rx="10" fill="#fff" stroke="#6D5BD0" stroke-width="2.2" filter="url(#shadow)"/>
+  <text x="615" y="318.16" font-size="12.8" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="615" dy="0">Find open cases</tspan><tspan x="615" dy="16">matching profile</tspan></text>
+  <circle cx="520" cy="280" r="13" fill="#6D5BD0"/>
+  <text x="520" y="284.5" font-size="12.5" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="520" dy="0">2</tspan></text>
+  <rect x="750" y="280" width="190" height="84" rx="10" fill="#fff" stroke="#6D5BD0" stroke-width="2.2" filter="url(#shadow)"/>
+  <text x="845" y="318.16" font-size="12.8" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="845" dy="0">for each case:</tspan><tspan x="845" dy="16">send RescreenCase</tspan></text>
+  <circle cx="750" cy="280" r="13" fill="#6D5BD0"/>
+  <text x="750" y="284.5" font-size="12.5" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="750" dy="0">3</tspan></text>
+  <rect x="750" y="420" width="190" height="84" rx="10" fill="#fff" stroke="#1F3A5F" stroke-width="2.2" filter="url(#shadow)"/>
+  <text x="845" y="458.16" font-size="12.8" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="845" dy="0">ScreenCaseUseCase</tspan><tspan x="845" dy="16">(same port as REST)</tspan></text>
+  <circle cx="750" cy="420" r="13" fill="#1F3A5F"/>
+  <text x="750" y="424.5" font-size="12.5" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="750" dy="0">4</tspan></text>
+  <rect x="980" y="420" width="190" height="84" rx="10" fill="#fff" stroke="#1F3A5F" stroke-width="2.2" filter="url(#shadow)"/>
+  <text x="1075" y="458.16" font-size="12.8" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="1075" dy="0">CaseScreened</tspan><tspan x="1075" dy="16">(newMatches = 1)</tspan></text>
+  <circle cx="980" cy="420" r="13" fill="#1F3A5F"/>
+  <text x="980" y="424.5" font-size="12.5" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="980" dy="0">5</tspan></text>
+  <rect x="980" y="280" width="190" height="84" rx="10" fill="#fff" stroke="#6D5BD0" stroke-width="2.2" filter="url(#shadow)"/>
+  <text x="1075" y="318.16" font-size="12.8" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="1075" dy="0">newMatches &gt; 0 ?</tspan><tspan x="1075" dy="16">raise alert</tspan></text>
+  <circle cx="980" cy="280" r="13" fill="#6D5BD0"/>
+  <text x="980" y="284.5" font-size="12.5" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="980" dy="0">6</tspan></text>
+  <rect x="1080" y="560" width="190" height="84" rx="10" fill="#fff" stroke="#5B6B7F" stroke-width="2.2" filter="url(#shadow)"/>
+  <text x="1175" y="598.16" font-size="12.8" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="1175" dy="0">Notify client</tspan><tspan x="1175" dy="16">compliance team</tspan></text>
+  <circle cx="1080" cy="560" r="13" fill="#5B6B7F"/>
+  <text x="1080" y="564.5" font-size="12.5" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="1080" dy="0">7</tspan></text>
+  <line x1="482" y1="182" x2="518" y2="322" stroke="#2A9D8F" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
+  <line x1="712" y1="322" x2="748" y2="322" stroke="#6D5BD0" stroke-width="2.2" marker-end="url(#arrow-purple)"/>
+  <line x1="845" y1="366" x2="845" y2="418" stroke="#6D5BD0" stroke-width="2.2" marker-end="url(#arrow-purple)"/>
+  <line x1="942" y1="462" x2="978" y2="462" stroke="#1F3A5F" stroke-width="2.2" marker-end="url(#arrow-navy)"/>
+  <line x1="1075" y1="418" x2="1075" y2="366" stroke="#1F3A5F" stroke-width="2.2" marker-end="url(#arrow-navy)"/>
+  <line x1="1120" y1="366" x2="1150" y2="558" stroke="#6D5BD0" stroke-width="2.2" marker-end="url(#arrow-purple)"/>
+  <rect x="40" y="690" width="1240" height="50" rx="8" fill="#FDF1DC" stroke="none" stroke-width="1.5"/>
+  <text x="60" y="721" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">Rules: one aggregate per transaction · commands are idempotent (caseId + profile version) · the process manager keeps its own state, never edits a ScreeningCase directly.</tspan></text>
+
+</svg>

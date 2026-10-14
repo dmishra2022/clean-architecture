@@ -1,0 +1,5 @@
+training/clean/screening/app/CleanArchitectureTest.class
+training/clean/screening/app/CaseApiTest.class
+training/clean/screening/app/$CaseApiTest$Definition$Exec.class
+META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/training.clean.screening.app.$CaseApiTest$Definition
+training/clean/screening/app/$CaseApiTest$Definition.class

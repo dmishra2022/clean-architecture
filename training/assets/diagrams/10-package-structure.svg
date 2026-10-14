@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1320 840" width="1320" height="840" role="img" aria-label="Package structure">
+  <title>Package structure</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Package structure of the code lab</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">Packages mirror the rings; ArchUnit fails the build if an arrow points outward</tspan></text>
+  <line x1="40" y1="92" x2="1280" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <rect x="40" y="115" width="700" height="600" rx="22" fill="#FDF1DC" stroke="#E9A23B" stroke-width="2"/>
+  <text x="60" y="145" font-size="15" font-weight="800" fill="#9A6512" text-anchor="start"><tspan x="60" dy="0">adapter  (Micronaut lives here)</tspan></text>
+  <text x="60" y="170" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="60" dy="0">in.rest · out.persistence · out.events · out.reference</tspan></text>
+  <rect x="100" y="195" width="580" height="440" rx="20" fill="#E3F4F1" stroke="#2A9D8F" stroke-width="2"/>
+  <text x="120" y="225" font-size="15" font-weight="800" fill="#2A9D8F" text-anchor="start"><tspan x="120" dy="0">application  (plain Java)</tspan></text>
+  <text x="120" y="250" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="120" dy="0">CaseApplicationService · port.in.* · port.out.*</tspan></text>
+  <rect x="170" y="280" width="440" height="280" rx="18" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="190" y="312" font-size="15" font-weight="800" fill="#fff" text-anchor="start"><tspan x="190" dy="0">domain  (plain Java, zero dependencies)</tspan></text>
+  <text x="190" y="345" font-size="13" font-weight="400" fill="#fff" text-anchor="start" class="mono"><tspan x="190" dy="0">model: ScreeningCase, Match, Party, …</tspan></text>
+  <text x="190" y="371" font-size="13" font-weight="400" fill="#fff" text-anchor="start" class="mono"><tspan x="190" dy="0">event: CaseOpened … CaseClosed</tspan></text>
+  <text x="190" y="397" font-size="13" font-weight="400" fill="#fff" text-anchor="start" class="mono"><tspan x="190" dy="0">service: NameMatchingPolicy</tspan></text>
+  <text x="190" y="423" font-size="13" font-weight="400" fill="#fff" text-anchor="start" class="mono"><tspan x="190" dy="0">DomainException</tspan></text>
+  <text x="190" y="480" font-size="13" font-weight="400" fill="#F6C177" text-anchor="start" class="mono"><tspan x="190" dy="0">imports: java.* only</tspan></text>
+  <line x1="390" y1="700" x2="390" y2="640" stroke="#1F3A5F" stroke-width="3" marker-end="url(#arrow-navy)"/>
+  <rect x="446" y="660" width="188" height="20" rx="10" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="540" y="674.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="540" dy="0">adapters → ports + domain</tspan></text>
+  <line x1="390" y1="625" x2="390" y2="566" stroke="#1F3A5F" stroke-width="3" marker-end="url(#arrow-navy)"/>
+  <rect x="443.5" y="587" width="153" height="20" rx="10" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="520" y="601.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="520" dy="0">application → domain</tspan></text>
+  <rect x="40" y="735" width="700" height="70" rx="12" fill="#ECE9FB" stroke="#6D5BD0" stroke-width="1.5"/>
+  <text x="60" y="765" font-size="14" font-weight="700" fill="#6D5BD0" text-anchor="start"><tspan x="60" dy="0">config  (composition root) → may see every ring</tspan></text>
+  <text x="60" y="787" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="60" dy="0">ApplicationWiring @Factory, MatchingProperties @ConfigurationProperties</tspan></text>
+  <rect x="770" y="115" width="510" height="690" rx="14" fill="#0F1B2D" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="790" y="148" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">src/main/java/training/worldcheck/screening/</tspan></text>
+  <text x="790" y="175.5" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">├── Application.java</tspan></text>
+  <text x="790" y="203" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">├── domain/</tspan></text>
+  <text x="790" y="230.5" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   ├── DomainException.java</tspan></text>
+  <text x="790" y="258" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   ├── model/   ScreeningCase, Match, Party, PartyName,</tspan></text>
+  <text x="790" y="285.5" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   │            CaseId, MatchScore, Resolution, …Snapshot</tspan></text>
+  <text x="790" y="313" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   ├── event/   DomainEvent (sealed), CaseOpened, …</tspan></text>
+  <text x="790" y="340.5" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   └── service/ NameMatchingPolicy, MatchEvaluation</tspan></text>
+  <text x="790" y="368" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">├── application/</tspan></text>
+  <text x="790" y="395.5" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   ├── CaseApplicationService.java</tspan></text>
+  <text x="790" y="423" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   ├── port/in/  OpenCaseUseCase, …, CaseView</tspan></text>
+  <text x="790" y="450.5" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   └── port/out/ CaseRepository, UnitOfWork, …</tspan></text>
+  <text x="790" y="478" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">├── adapter/</tspan></text>
+  <text x="790" y="505.5" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   ├── in/rest/          CaseController, ApiModels,</tspan></text>
+  <text x="790" y="533" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   │                     ProblemHandlers</tspan></text>
+  <text x="790" y="560.5" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   ├── out/persistence/  JdbcCaseRepository, rows,</tspan></text>
+  <text x="790" y="588" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   │                     JdbcUnitOfWork</tspan></text>
+  <text x="790" y="615.5" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   ├── out/events/       OutboxEventAppender, OutboxRelay</tspan></text>
+  <text x="790" y="643" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">│   └── out/reference/    InMemory…, Http… (ACL)</tspan></text>
+  <text x="790" y="670.5" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">└── config/  ApplicationWiring, MatchingProperties</tspan></text>
+  <text x="790" y="698" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0"></tspan></text>
+  <text x="790" y="725.5" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">src/main/resources/db/migration/V1__screening_schema.sql</tspan></text>
+  <text x="790" y="753" font-size="12.4" font-weight="400" fill="#DCE6F2" text-anchor="start" class="mono"><tspan x="790" dy="0">src/test/java/…/architecture/HexagonalArchitectureTest</tspan></text>
+
+</svg>

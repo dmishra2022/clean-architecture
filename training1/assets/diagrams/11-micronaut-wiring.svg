@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1280 760" width="1280" height="760" role="img" aria-label="Micronaut wiring">
+  <title>Micronaut wiring</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-ent" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-uc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-uc" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ia" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-ia" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fw" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-entDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-entDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ucDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-ucDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-iaDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-iaDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fwDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fwDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Micronaut lives in ring 4 only</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">Annotation processors run on screening-app; inner modules are plain jars that MainWiring assembles by hand</tspan></text>
+  <line x1="40" y1="92" x2="1240" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="40" y="135" font-size="18" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Compile time</tspan></text>
+  <rect x="40" y="160" width="330" height="58" rx="10" fill="#fff" stroke="#F2C14E" stroke-width="2.2"/>
+  <text x="205" y="185.5" font-size="14" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="205" dy="0">screening-entities.jar</tspan></text>
+  <text x="205" y="201.6" font-size="11.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="205" dy="0">no annotations · no BeanDefinitions</tspan></text>
+  <rect x="40" y="234" width="330" height="58" rx="10" fill="#fff" stroke="#E07A5F" stroke-width="2.2"/>
+  <text x="205" y="259.5" font-size="14" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="205" dy="0">screening-usecases.jar</tspan></text>
+  <text x="205" y="275.6" font-size="11.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="205" dy="0">no annotations · no BeanDefinitions</tspan></text>
+  <rect x="40" y="308" width="330" height="58" rx="10" fill="#fff" stroke="#5FAD56" stroke-width="2.2"/>
+  <text x="205" y="333.5" font-size="14" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="205" dy="0">screening-interface-adapters.jar</tspan></text>
+  <text x="205" y="349.6" font-size="11.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="205" dy="0">no annotations · no BeanDefinitions</tspan></text>
+  <rect x="40" y="392" width="330" height="230" rx="10" fill="#fff" stroke="#3E7CB1" stroke-width="2.2"/>
+  <text x="54" y="453.075" font-size="15" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="54" dy="0">screening-app (javac)</tspan></text>
+  <text x="54" y="469.875" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono" opacity="0.95"><tspan x="54" dy="0">micronaut-inject-java → $Definition classes</tspan></text>
+  <text x="54" y="486.675" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono" opacity="0.95"><tspan x="54" dy="0">  for MainWiring, endpoints, handlers</tspan></text>
+  <text x="54" y="503.475" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono" opacity="0.95"><tspan x="54" dy="0">micronaut-serde-processor → serializers</tspan></text>
+  <text x="54" y="520.275" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono" opacity="0.95"><tspan x="54" dy="0">  incl. @SerdeImport(CaseJson, Forms…)</tspan></text>
+  <text x="54" y="537.0749999999999" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono" opacity="0.95"><tspan x="54" dy="0">micronaut-data-processor → JDBC</tspan></text>
+  <text x="54" y="553.8749999999999" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono" opacity="0.95"><tspan x="54" dy="0">  repository implementations + SQL</tspan></text>
+  <text x="54" y="570.6749999999998" font-size="12" font-weight="400" fill="#1D2733" text-anchor="start" class="mono" opacity="0.95"><tspan x="54" dy="0">micronaut-validation-processor</tspan></text>
+  <line x1="372" y1="260" x2="470" y2="330" stroke="#3E7CB1" stroke-width="2.5" marker-end="url(#arrow-fw)"/>
+  <line x1="372" y1="505" x2="470" y2="420" stroke="#3E7CB1" stroke-width="2.5" marker-end="url(#arrow-fw)"/>
+  <text x="500" y="135" font-size="18" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="500" dy="0">Runtime: the Main component builds the object graph</tspan></text>
+  <rect x="480" y="160" width="300" height="70" rx="10" fill="#6D5BD0" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="630" y="191.475" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="630" dy="0">MainWiring  @Factory</tspan></text>
+  <text x="630" y="208.27499999999998" font-size="12" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="630" dy="0">the only class that knows every ring</tspan></text>
+  <rect x="480" y="270" width="300" height="58" rx="10" fill="#fff" stroke="#3E7CB1" stroke-width="2.2"/>
+  <text x="630" y="295.6875" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="630" dy="0">MicronautCaseRecords</tspan></text>
+  <text x="630" y="311.0875" font-size="11" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="630" dy="0">@Singleton (ring 4)</tspan></text>
+  <rect x="480" y="345" width="300" height="58" rx="10" fill="#fff" stroke="#5FAD56" stroke-width="2.2"/>
+  <text x="630" y="370.6875" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="630" dy="0">SqlCaseGateway</tspan></text>
+  <text x="630" y="386.0875" font-size="11" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="630" dy="0">new SqlCaseGateway(records)</tspan></text>
+  <rect x="480" y="420" width="300" height="58" rx="10" fill="#fff" stroke="#E07A5F" stroke-width="2.2"/>
+  <text x="630" y="445.6875" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="630" dy="0">ScreenCaseInteractor</tspan></text>
+  <text x="630" y="461.0875" font-size="11" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="630" dy="0">new …(cases, ref, outbox, tx, policy, clock)</tspan></text>
+  <rect x="480" y="495" width="300" height="58" rx="10" fill="#fff" stroke="#5FAD56" stroke-width="2.2"/>
+  <text x="630" y="520.6875" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="630" dy="0">CaseController</tspan></text>
+  <text x="630" y="536.0875" font-size="11" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="630" dy="0">new CaseController(openCase, screenCase, …)</tspan></text>
+  <rect x="480" y="570" width="300" height="58" rx="10" fill="#fff" stroke="#3E7CB1" stroke-width="2.2"/>
+  <text x="630" y="595.6875" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="630" dy="0">CaseEndpoint</tspan></text>
+  <text x="630" y="611.0875" font-size="11" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="630" dy="0">@Controller, injects CaseController</tspan></text>
+  <line x1="630" y1="344" x2="630" y2="330" stroke="#1D2733" stroke-width="2" marker-end="url(#arrow-ink)"/>
+  <line x1="630" y1="419" x2="630" y2="405" stroke="#1D2733" stroke-width="2" marker-end="url(#arrow-ink)"/>
+  <line x1="630" y1="494" x2="630" y2="480" stroke="#1D2733" stroke-width="2" marker-end="url(#arrow-ink)"/>
+  <line x1="630" y1="569" x2="630" y2="555" stroke="#1D2733" stroke-width="2" marker-end="url(#arrow-ink)"/>
+  <line x1="630" y1="232" x2="630" y2="268" stroke="#6D5BD0" stroke-width="2" marker-end="url(#arrow-purple)"/>
+  <text x="820" y="180" font-size="16" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="820" dy="0">Rules the lab follows</tspan></text>
+  <rect x="820" y="200" width="420" height="79" rx="8" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+  <text x="836" y="224" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="836" dy="0">Interactors are built in @Factory methods and</tspan><tspan x="836" dy="18.56">exposed as their input-boundary type (OpenCase,</tspan><tspan x="836" dy="18.56">ScreenCase …) – never annotated themselves.</tspan></text>
+  <rect x="820" y="289" width="420" height="60" rx="8" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+  <text x="836" y="313" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="836" dy="0">Presenters are NOT beans: the controller makes</tspan><tspan x="836" dy="18.56">a new CasePresenter per request (it has state).</tspan></text>
+  <rect x="820" y="359" width="420" height="60" rx="8" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+  <text x="836" y="383" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="836" dy="0">Configuration is read at the edge and passed</tspan><tspan x="836" dy="18.56">in as plain values: new NameMatchingPolicy(80).</tspan></text>
+  <rect x="820" y="429" width="420" height="79" rx="8" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+  <text x="836" y="453" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="836" dy="0">@Requires(property = "screening.reference-</tspan><tspan x="836" dy="18.56">data.mode") picks in-memory vs RemoteReferenceData</tspan><tspan x="836" dy="18.56">– the use cases cannot tell the difference.</tspan></text>
+  <rect x="820" y="518" width="420" height="60" rx="8" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+  <text x="836" y="542" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="836" dy="0">Ring-3 records get JSON via @SerdeImport in</tspan><tspan x="836" dy="18.56">ring 4, so ring 3 stays framework-free.</tspan></text>
+  <rect x="40" y="650" width="740" height="80" rx="8" fill="#FDF1DC" stroke="none" stroke-width="1.5"/>
+  <text x="56" y="676" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="56" dy="0">Try it: add `import jakarta.inject.Singleton;` to an interactor. screening-usecases does not compile –</tspan><tspan x="56" dy="18.849999999999998">the module has no Micronaut on its classpath. That is the dependency rule enforced by Maven.</tspan></text>
+
+</svg>

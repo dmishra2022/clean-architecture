@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Mapping of architecture styles">
+  <title>Mapping of architecture styles</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-ent" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-uc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-uc" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ia" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-ia" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fw" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-entDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-entDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ucDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-ucDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-iaDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-iaDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fwDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fwDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Layered, hexagonal, onion, Clean – the same idea with different vocabulary</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">Hexagonal, onion and Clean all invert the database-centric layering; Clean adds explicit boundaries and a Main</tspan></text>
+  <line x1="40" y1="92" x2="1240" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <rect x="254" y="120" width="244" height="40" rx="8" fill="#5B6B7F" stroke="none" stroke-width="1.5"/>
+  <text x="376" y="146" font-size="15" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="376" dy="0">Layered (classic)</tspan></text>
+  <rect x="506" y="120" width="244" height="40" rx="8" fill="#2A9D8F" stroke="none" stroke-width="1.5"/>
+  <text x="628" y="146" font-size="15" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="628" dy="0">Hexagonal (Cockburn)</tspan></text>
+  <rect x="758" y="120" width="244" height="40" rx="8" fill="#6D5BD0" stroke="none" stroke-width="1.5"/>
+  <text x="880" y="146" font-size="15" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="880" dy="0">Onion (Palermo)</tspan></text>
+  <rect x="1010" y="120" width="244" height="40" rx="8" fill="#E07A5F" stroke="none" stroke-width="1.5"/>
+  <text x="1132" y="146" font-size="15" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="1132" dy="0">Clean (Martin)</tspan></text>
+  <rect x="40" y="170" width="202" height="70" rx="8" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <text x="54" y="210" font-size="14" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="54" dy="0">Business rules</tspan></text>
+  <rect x="254" y="170" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="376" y="200" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="376" dy="0">Service layer, mixed</tspan><tspan x="376" dy="17.55">with plumbing</tspan></text>
+  <rect x="506" y="170" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="628" y="200" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="628" dy="0">Domain inside the</tspan><tspan x="628" dy="17.55">hexagon</tspan></text>
+  <rect x="758" y="170" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="880" y="200" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="880" dy="0">Domain model at</tspan><tspan x="880" dy="17.55">the centre</tspan></text>
+  <rect x="1010" y="170" width="244" height="70" rx="8" fill="#FBE7E1" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="1132" y="200" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="1132" dy="0">Entities ring</tspan><tspan x="1132" dy="17.55">(enterprise rules)</tspan></text>
+  <rect x="40" y="248" width="202" height="70" rx="8" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <text x="54" y="288" font-size="14" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="54" dy="0">Orchestration</tspan></text>
+  <rect x="254" y="248" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="376" y="278" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="376" dy="0">Same service layer</tspan></text>
+  <rect x="506" y="248" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="628" y="278" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="628" dy="0">Application services</tspan></text>
+  <rect x="758" y="248" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="880" y="278" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="880" dy="0">Domain services +</tspan><tspan x="880" dy="17.55">application services</tspan></text>
+  <rect x="1010" y="248" width="244" height="70" rx="8" fill="#FBE7E1" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="1132" y="278" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="1132" dy="0">Interactors</tspan><tspan x="1132" dy="17.55">(application rules)</tspan></text>
+  <rect x="40" y="326" width="202" height="70" rx="8" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <text x="54" y="354" font-size="14" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="54" dy="0">Interfaces to the</tspan><tspan x="54" dy="18.2">outside</tspan></text>
+  <rect x="254" y="326" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="376" y="356" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="376" dy="0">DAO interfaces next</tspan><tspan x="376" dy="17.55">to implementations</tspan></text>
+  <rect x="506" y="326" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="628" y="356" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="628" dy="0">Ports (driving +</tspan><tspan x="628" dy="17.55">driven), owned inside</tspan></text>
+  <rect x="758" y="326" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="880" y="356" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="880" dy="0">Repository interfaces</tspan><tspan x="880" dy="17.55">in inner layers</tspan></text>
+  <rect x="1010" y="326" width="244" height="70" rx="8" fill="#FBE7E1" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="1132" y="356" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="1132" dy="0">Input/output boundaries</tspan><tspan x="1132" dy="17.55">+ gateways in ring 2</tspan></text>
+  <rect x="40" y="404" width="202" height="70" rx="8" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <text x="54" y="444" font-size="14" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="54" dy="0">Delivery code</tspan></text>
+  <rect x="254" y="404" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="376" y="434" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="376" dy="0">Controllers on top</tspan></text>
+  <rect x="506" y="404" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="628" y="434" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="628" dy="0">Driving adapters</tspan></text>
+  <rect x="758" y="404" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="880" y="434" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="880" dy="0">UI / tests in the</tspan><tspan x="880" dy="17.55">outer layer</tspan></text>
+  <rect x="1010" y="404" width="244" height="70" rx="8" fill="#FBE7E1" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="1132" y="434" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="1132" dy="0">Controllers +</tspan><tspan x="1132" dy="17.55">presenters (ring 3)</tspan></text>
+  <rect x="40" y="482" width="202" height="70" rx="8" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <text x="54" y="522" font-size="14" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="54" dy="0">Persistence code</tspan></text>
+  <rect x="254" y="482" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="376" y="512" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="376" dy="0">Bottom layer – the</tspan><tspan x="376" dy="17.55">foundation</tspan></text>
+  <rect x="506" y="482" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="628" y="512" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="628" dy="0">Driven adapters</tspan></text>
+  <rect x="758" y="482" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="880" y="512" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="880" dy="0">Infrastructure in</tspan><tspan x="880" dy="17.55">the outer layer</tspan></text>
+  <rect x="1010" y="482" width="244" height="70" rx="8" fill="#FBE7E1" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="1132" y="512" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="1132" dy="0">Gateway impls (ring 3)</tspan><tspan x="1132" dy="17.55">+ drivers (ring 4)</tspan></text>
+  <rect x="40" y="560" width="202" height="70" rx="8" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <text x="54" y="600" font-size="14" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="54" dy="0">Response shaping</tspan></text>
+  <rect x="254" y="560" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="376" y="590" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="376" dy="0">Controller or</tspan><tspan x="376" dy="17.55">entity serialised</tspan></text>
+  <rect x="506" y="560" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="628" y="590" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="628" dy="0">Adapter maps a view</tspan><tspan x="628" dy="17.55">returned by the port</tspan></text>
+  <rect x="758" y="560" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="880" y="590" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="880" dy="0">Outer layer</tspan></text>
+  <rect x="1010" y="560" width="244" height="70" rx="8" fill="#FBE7E1" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="1132" y="590" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="1132" dy="0">Presenter called via the</tspan><tspan x="1132" dy="17.55">output boundary</tspan></text>
+  <rect x="40" y="638" width="202" height="70" rx="8" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <text x="54" y="678" font-size="14" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="54" dy="0">Wiring</tspan></text>
+  <rect x="254" y="638" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="376" y="668" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="376" dy="0">Framework scans</tspan><tspan x="376" dy="17.55">everything</tspan></text>
+  <rect x="506" y="638" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="628" y="668" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="628" dy="0">Config / composition</tspan><tspan x="628" dy="17.55">root</tspan></text>
+  <rect x="758" y="638" width="244" height="70" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="880" y="668" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="880" dy="0">Composition root</tspan></text>
+  <rect x="1010" y="638" width="244" height="70" rx="8" fill="#FBE7E1" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="1132" y="668" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle"><tspan x="1132" dy="0">Main component</tspan><tspan x="1132" dy="17.55">(MainWiring)</tspan></text>
+
+</svg>

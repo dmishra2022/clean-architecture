@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1280 700" width="1280" height="700" role="img" aria-label="World-Check subdomains">
+  <title>World-Check subdomains</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">World-Check problem space: subdomains</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">Invest design effort where the competitive advantage is; buy or reuse the rest</tspan></text>
+  <line x1="40" y1="92" x2="1240" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <rect x="40" y="120" width="390" height="540" rx="14" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <rect x="40" y="120" width="390" height="74" rx="14" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="235" y="154.425" font-size="19" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="235" dy="0">CORE</tspan></text>
+  <text x="235" y="171.925" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="235" dy="0">Why clients pay LSEG</tspan></text>
+  <rect x="60" y="220" width="350" height="92" rx="10" fill="#fff" stroke="#1F3A5F" stroke-width="2" filter="url(#shadow)"/>
+  <text x="235" y="262.2875" font-size="15.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="235" dy="0">Screening &amp; Matching</tspan></text>
+  <text x="235" y="279.7875" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="235" dy="0">name + secondary-ID scoring, false-positive reduction</tspan></text>
+  <rect x="60" y="332" width="350" height="92" rx="10" fill="#fff" stroke="#1F3A5F" stroke-width="2" filter="url(#shadow)"/>
+  <text x="235" y="374.2875" font-size="15.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="235" dy="0">Case remediation</tspan></text>
+  <text x="235" y="391.7875" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="235" dy="0">resolutions, four-eyes, audit-grade rationale</tspan></text>
+  <rect x="60" y="444" width="350" height="92" rx="10" fill="#fff" stroke="#1F3A5F" stroke-width="2" filter="url(#shadow)"/>
+  <text x="235" y="486.2875" font-size="15.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="235" dy="0">Ongoing monitoring</tspan></text>
+  <text x="235" y="503.7875" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="235" dy="0">rescreen on corpus change, prioritised alerts</tspan></text>
+  <rect x="60" y="566" width="350" height="72" rx="8" fill="#FDF1DC" stroke="#C9D3DE" stroke-width="1.5"/>
+  <text x="76" y="592" font-size="12" font-weight="700" fill="#5B6B7F" text-anchor="start"><tspan x="76" dy="0">Strategy</tspan></text>
+  <text x="76" y="614" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="76" dy="0">Rich DDD: aggregates, events, best engineers, deep tests</tspan></text>
+  <rect x="450" y="120" width="390" height="540" rx="14" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <rect x="450" y="120" width="390" height="74" rx="14" fill="#2A9D8F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="645" y="154.425" font-size="19" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="645" dy="0">SUPPORTING</tspan></text>
+  <text x="645" y="171.925" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="645" dy="0">Needed, specific to us, not a differentiator</tspan></text>
+  <rect x="470" y="220" width="350" height="92" rx="10" fill="#fff" stroke="#2A9D8F" stroke-width="2" filter="url(#shadow)"/>
+  <text x="645" y="262.2875" font-size="15.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="645" dy="0">Batch screening</tspan></text>
+  <text x="645" y="279.7875" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="645" dy="0">file ingestion, chunking, replay</tspan></text>
+  <rect x="470" y="332" width="350" height="92" rx="10" fill="#fff" stroke="#2A9D8F" stroke-width="2" filter="url(#shadow)"/>
+  <text x="645" y="374.2875" font-size="15.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="645" dy="0">Client &amp; entitlements</tspan></text>
+  <text x="645" y="391.7875" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="645" dy="0">client groups, product features, API keys</tspan></text>
+  <rect x="470" y="444" width="350" height="92" rx="10" fill="#fff" stroke="#2A9D8F" stroke-width="2" filter="url(#shadow)"/>
+  <text x="645" y="486.2875" font-size="15.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="645" dy="0">Case reporting</tspan></text>
+  <text x="645" y="503.7875" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="645" dy="0">exports, evidence packs for regulators</tspan></text>
+  <rect x="470" y="566" width="350" height="72" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1.5"/>
+  <text x="486" y="592" font-size="12" font-weight="700" fill="#5B6B7F" text-anchor="start"><tspan x="486" dy="0">Strategy</tspan></text>
+  <text x="486" y="614" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="486" dy="0">Simpler models; CRUD is fine where rules are thin</tspan></text>
+  <rect x="860" y="120" width="390" height="540" rx="14" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <rect x="860" y="120" width="390" height="74" rx="14" fill="#5B6B7F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1055" y="154.425" font-size="19" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1055" dy="0">GENERIC</tspan></text>
+  <text x="1055" y="171.925" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1055" dy="0">Solved problems; buy or reuse</tspan></text>
+  <rect x="880" y="220" width="350" height="92" rx="10" fill="#fff" stroke="#5B6B7F" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1055" y="262.2875" font-size="15.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="1055" dy="0">Identity &amp; SSO</tspan></text>
+  <text x="1055" y="279.7875" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="1055" dy="0">OIDC provider, MFA</tspan></text>
+  <rect x="880" y="332" width="350" height="92" rx="10" fill="#fff" stroke="#5B6B7F" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1055" y="374.2875" font-size="15.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="1055" dy="0">Notifications</tspan></text>
+  <text x="1055" y="391.7875" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="1055" dy="0">email / webhook delivery</tspan></text>
+  <rect x="880" y="444" width="350" height="92" rx="10" fill="#fff" stroke="#5B6B7F" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1055" y="486.2875" font-size="15.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="1055" dy="0">Billing &amp; usage metering</tspan></text>
+  <text x="1055" y="503.7875" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="1055" dy="0">off-the-shelf or platform team</tspan></text>
+  <rect x="880" y="566" width="350" height="72" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1.5"/>
+  <text x="896" y="592" font-size="12" font-weight="700" fill="#5B6B7F" text-anchor="start"><tspan x="896" dy="0">Strategy</tspan></text>
+  <text x="896" y="614" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="896" dy="0">Integrate through an ACL; never let their model leak in</tspan></text>
+
+</svg>

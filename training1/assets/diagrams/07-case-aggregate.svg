@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1280 780" width="1280" height="780" role="img" aria-label="ScreeningCase aggregate">
+  <title>ScreeningCase aggregate</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-ent" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-uc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-uc" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ia" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-ia" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fw" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-entDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-entDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ucDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-ucDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-iaDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-iaDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fwDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fwDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Ring 1: the ScreeningCase aggregate</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">Plain Java 21, no annotations. Every invariant is enforced here, whoever calls – web, CLI, test or batch.</tspan></text>
+  <line x1="40" y1="92" x2="1240" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <rect x="40" y="120" width="760" height="620" rx="18" fill="#FDF4DA" stroke="#F2C14E" stroke-width="2"/>
+  <text x="54" y="142" font-size="13" font-weight="800" fill="#8A6A12" text-anchor="start"><tspan x="54" dy="0">screening-entities · training.clean.screening.entities</tspan></text>
+  <rect x="70" y="160" width="700" height="130" rx="10" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="420" y="204.275" font-size="17" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="420" dy="0">ScreeningCase  «aggregate root»</tspan></text>
+  <text x="420" y="221.775" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="420" dy="0">open(id, clientGroup, party, now) · screen(candidates, policy, now)</tspan></text>
+  <text x="420" y="239.275" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="420" dy="0">resolveMatch(matchId, resolution, rationale, analyst, now) · close(analyst, now)</tspan></text>
+  <text x="420" y="256.775" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="420" dy="0">snapshot() / rehydrate(snapshot) · pullEvents() · belongsTo(clientGroup)</tspan></text>
+  <rect x="70" y="316" width="330" height="110" rx="10" fill="#8A6A12" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="235" y="350.675" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="235" dy="0">Match  «entity»</tspan></text>
+  <text x="235" y="367.475" font-size="12" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="235" dy="0">MatchId · ProfileId · RiskCategory</tspan></text>
+  <text x="235" y="384.27500000000003" font-size="12" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="235" dy="0">MatchScore · Resolution</tspan></text>
+  <text x="235" y="401.07500000000005" font-size="12" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="235" dy="0">rationale · resolvedBy · resolvedAt</tspan></text>
+  <rect x="440" y="316" width="330" height="110" rx="10" fill="#6D5BD0" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="605" y="350.35" font-size="14" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="605" dy="0">NameMatchingPolicy  «domain service»</tspan></text>
+  <text x="605" y="367.15000000000003" font-size="12" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="605" dy="0">evaluate(party, profile) → MatchEvaluation</tspan></text>
+  <text x="605" y="383.95000000000005" font-size="12" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="605" dy="0">token-sort / token-set ratios</tspan></text>
+  <text x="605" y="400.75000000000006" font-size="12" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="605" dy="0">+ DOB and country adjustments</tspan></text>
+  <line x1="235" y1="290" x2="235" y2="314" stroke="#1D2733" stroke-width="2" marker-end="url(#arrow-ink)"/>
+  <rect x="231" y="292.5" width="148" height="19" rx="9.5" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="305" y="305.96" font-size="11" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="305" dy="0">0..n, one per profile</tspan></text>
+  <text x="70" y="460" font-size="14" font-weight="800" fill="#8A6A12" text-anchor="start"><tspan x="70" dy="0">Value objects (immutable records, validate themselves)</tspan></text>
+  <rect x="70" y="476" width="164" height="32" rx="16" fill="#FFFFFF" stroke="#F2C14E" stroke-width="1.8"/>
+  <text x="152" y="496.5" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="152" dy="0">CaseId</tspan></text>
+  <rect x="246" y="476" width="164" height="32" rx="16" fill="#FFFFFF" stroke="#F2C14E" stroke-width="1.8"/>
+  <text x="328" y="496.5" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="328" dy="0">MatchId</tspan></text>
+  <rect x="422" y="476" width="164" height="32" rx="16" fill="#FFFFFF" stroke="#F2C14E" stroke-width="1.8"/>
+  <text x="504" y="496.5" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="504" dy="0">ClientGroupId</tspan></text>
+  <rect x="598" y="476" width="164" height="32" rx="16" fill="#FFFFFF" stroke="#F2C14E" stroke-width="1.8"/>
+  <text x="680" y="496.5" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="680" dy="0">AnalystId</tspan></text>
+  <rect x="70" y="520" width="164" height="32" rx="16" fill="#FFFFFF" stroke="#F2C14E" stroke-width="1.8"/>
+  <text x="152" y="540.5" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="152" dy="0">PartyName</tspan></text>
+  <rect x="246" y="520" width="164" height="32" rx="16" fill="#FFFFFF" stroke="#F2C14E" stroke-width="1.8"/>
+  <text x="328" y="540.5" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="328" dy="0">Party</tspan></text>
+  <rect x="422" y="520" width="164" height="32" rx="16" fill="#FFFFFF" stroke="#F2C14E" stroke-width="1.8"/>
+  <text x="504" y="540.5" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="504" dy="0">CountryCode</tspan></text>
+  <rect x="598" y="520" width="164" height="32" rx="16" fill="#FFFFFF" stroke="#F2C14E" stroke-width="1.8"/>
+  <text x="680" y="540.5" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="680" dy="0">EntityType</tspan></text>
+  <rect x="70" y="564" width="164" height="32" rx="16" fill="#FFFFFF" stroke="#F2C14E" stroke-width="1.8"/>
+  <text x="152" y="584.5" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="152" dy="0">MatchScore</tspan></text>
+  <rect x="246" y="564" width="164" height="32" rx="16" fill="#FFFFFF" stroke="#F2C14E" stroke-width="1.8"/>
+  <text x="328" y="584.5" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="328" dy="0">Resolution</tspan></text>
+  <rect x="422" y="564" width="164" height="32" rx="16" fill="#FFFFFF" stroke="#F2C14E" stroke-width="1.8"/>
+  <text x="504" y="584.5" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="504" dy="0">ResolutionRationale</tspan></text>
+  <rect x="598" y="564" width="164" height="32" rx="16" fill="#FFFFFF" stroke="#F2C14E" stroke-width="1.8"/>
+  <text x="680" y="584.5" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="680" dy="0">ReferenceProfile</tspan></text>
+  <text x="70" y="636" font-size="14" font-weight="800" fill="#8A6A12" text-anchor="start"><tspan x="70" dy="0">Events (sealed interface DomainEvent)</tspan></text>
+  <g>
+  <rect x="70" y="652" width="164" height="54" fill="#F4A261" filter="url(#shadow)"/>
+  <text x="152" y="683.86" font-size="13.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="152" dy="0">CaseOpened</tspan></text>
+  </g>
+  <g>
+  <rect x="246" y="652" width="164" height="54" fill="#F4A261" filter="url(#shadow)"/>
+  <text x="328" y="683.86" font-size="13.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="328" dy="0">CaseScreened</tspan></text>
+  </g>
+  <g>
+  <rect x="422" y="652" width="164" height="54" fill="#F4A261" filter="url(#shadow)"/>
+  <text x="504" y="683.86" font-size="13.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="504" dy="0">MatchResolved</tspan></text>
+  </g>
+  <g>
+  <rect x="598" y="652" width="164" height="54" fill="#F4A261" filter="url(#shadow)"/>
+  <text x="680" y="683.86" font-size="13.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="680" dy="0">CaseClosed</tspan></text>
+  </g>
+  <text x="830" y="140" font-size="18" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="830" dy="0">Invariants</tspan></text>
+  <rect x="830" y="160" width="410" height="54" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="846" y="182" font-size="15" font-weight="800" fill="#E07A5F" text-anchor="start"><tspan x="846" dy="0">1</tspan></text>
+  <text x="872" y="182" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="872" dy="0">A closed case cannot be screened, resolved</tspan><tspan x="872" dy="17.55">or closed again (CASE_CLOSED).</tspan></text>
+  <rect x="830" y="222" width="410" height="54" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="846" y="244" font-size="15" font-weight="800" fill="#E07A5F" text-anchor="start"><tspan x="846" dy="0">2</tspan></text>
+  <text x="872" y="244" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="872" dy="0">At most one match per profile; rescreening</tspan><tspan x="872" dy="17.55">updates the score, keeps the resolution.</tspan></text>
+  <rect x="830" y="284" width="410" height="36" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="846" y="306" font-size="15" font-weight="800" fill="#E07A5F" text-anchor="start"><tspan x="846" dy="0">3</tspan></text>
+  <text x="872" y="306" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="872" dy="0">Matches are never removed.</tspan></text>
+  <rect x="830" y="328" width="410" height="54" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="846" y="350" font-size="15" font-weight="800" fill="#E07A5F" text-anchor="start"><tspan x="846" dy="0">4</tspan></text>
+  <text x="872" y="350" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="872" dy="0">Every resolution has a 10-2000 character</tspan><tspan x="872" dy="17.55">rationale and an analyst.</tspan></text>
+  <rect x="830" y="390" width="410" height="54" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="846" y="412" font-size="15" font-weight="800" fill="#E07A5F" text-anchor="start"><tspan x="846" dy="0">5</tspan></text>
+  <text x="872" y="412" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="872" dy="0">A POSITIVE may only be downgraded by a</tspan><tspan x="872" dy="17.55">different analyst (FOUR_EYES).</tspan></text>
+  <rect x="830" y="452" width="410" height="54" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="846" y="474" font-size="15" font-weight="800" fill="#E07A5F" text-anchor="start"><tspan x="846" dy="0">6</tspan></text>
+  <text x="872" y="474" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="872" dy="0">Close only when screened at least once and</tspan><tspan x="872" dy="17.55">no match is UNRESOLVED or POSSIBLE.</tspan></text>
+  <rect x="830" y="514" width="410" height="54" rx="8" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="846" y="536" font-size="15" font-weight="800" fill="#E07A5F" text-anchor="start"><tspan x="846" dy="0">7</tspan></text>
+  <text x="872" y="536" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="872" dy="0">Status is derived from the matches; there</tspan><tspan x="872" dy="17.55">is no setStatus().</tspan></text>
+  <rect x="830" y="582" width="410" height="84" rx="8" fill="#FDF1DC" stroke="none" stroke-width="1.5"/>
+  <text x="846" y="608" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="846" dy="0">Uncle Bob's test for ring 1: would the rule</tspan><tspan x="846" dy="18.849999999999998">exist if the bank screened on paper? Yes →</tspan><tspan x="846" dy="18.849999999999998">it belongs here. No → it is an application rule.</tspan></text>
+
+</svg>

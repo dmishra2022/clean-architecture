@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1280 900" width="1280" height="900" role="img" aria-label="Request sequence through the rings">
+  <title>Request sequence through the rings</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-ent" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-uc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-uc" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ia" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-ia" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fw" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-entDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-entDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ucDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-ucDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-iaDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-iaDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fwDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fwDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">One request through every ring: POST …/cases/{id}/closure</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">Rings are colour-coded. The presenter runs after commit or rollback; the endpoint only copies the view model.</tspan></text>
+  <line x1="40" y1="92" x2="1240" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <rect x="26" y="112" width="128" height="44" rx="8" fill="#EEF2F6" stroke="#5B6B7F" stroke-width="2"/>
+  <text x="90" y="139" font-size="11.5" font-weight="800" fill="#1D2733" text-anchor="middle"><tspan x="90" dy="0">Client</tspan></text>
+  <line x1="90" y1="156" x2="90" y2="850" stroke="#C9D3DE" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="164" y="112" width="128" height="44" rx="8" fill="#E2EDF7" stroke="#3E7CB1" stroke-width="2"/>
+  <text x="228" y="139" font-size="11.5" font-weight="800" fill="#1D2733" text-anchor="middle"><tspan x="228" dy="0">CaseEndpoint</tspan></text>
+  <line x1="228" y1="156" x2="228" y2="850" stroke="#C9D3DE" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="302" y="112" width="128" height="44" rx="8" fill="#E6F3E4" stroke="#5FAD56" stroke-width="2"/>
+  <text x="366" y="139" font-size="11.5" font-weight="800" fill="#1D2733" text-anchor="middle"><tspan x="366" dy="0">CaseController</tspan></text>
+  <line x1="366" y1="156" x2="366" y2="850" stroke="#C9D3DE" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="440" y="112" width="128" height="44" rx="8" fill="#FBE7E1" stroke="#E07A5F" stroke-width="2"/>
+  <text x="504" y="139" font-size="11.5" font-weight="800" fill="#1D2733" text-anchor="middle"><tspan x="504" dy="0">CloseCaseInteractor</tspan></text>
+  <line x1="504" y1="156" x2="504" y2="850" stroke="#C9D3DE" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="578" y="112" width="128" height="44" rx="8" fill="#E2EDF7" stroke="#3E7CB1" stroke-width="2"/>
+  <text x="642" y="139" font-size="11.5" font-weight="800" fill="#1D2733" text-anchor="middle"><tspan x="642" dy="0">TransactionRunner</tspan></text>
+  <line x1="642" y1="156" x2="642" y2="850" stroke="#C9D3DE" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="716" y="112" width="128" height="44" rx="8" fill="#E6F3E4" stroke="#5FAD56" stroke-width="2"/>
+  <text x="780" y="139" font-size="11.5" font-weight="800" fill="#1D2733" text-anchor="middle"><tspan x="780" dy="0">SqlCaseGateway</tspan></text>
+  <line x1="780" y1="156" x2="780" y2="850" stroke="#C9D3DE" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="854" y="112" width="128" height="44" rx="8" fill="#FDF4DA" stroke="#F2C14E" stroke-width="2"/>
+  <text x="918" y="139" font-size="11.5" font-weight="800" fill="#1D2733" text-anchor="middle"><tspan x="918" dy="0">ScreeningCase</tspan></text>
+  <line x1="918" y1="156" x2="918" y2="850" stroke="#C9D3DE" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="992" y="112" width="128" height="44" rx="8" fill="#E6F3E4" stroke="#5FAD56" stroke-width="2"/>
+  <text x="1056" y="139" font-size="11.5" font-weight="800" fill="#1D2733" text-anchor="middle"><tspan x="1056" dy="0">OutboxEventGateway</tspan></text>
+  <line x1="1056" y1="156" x2="1056" y2="850" stroke="#C9D3DE" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="1130" y="112" width="128" height="44" rx="8" fill="#E6F3E4" stroke="#5FAD56" stroke-width="2"/>
+  <text x="1194" y="139" font-size="11.5" font-weight="800" fill="#1D2733" text-anchor="middle"><tspan x="1194" dy="0">CasePresenter</tspan></text>
+  <line x1="1194" y1="156" x2="1194" y2="850" stroke="#C9D3DE" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="90" y1="190" x2="224" y2="190" stroke="#1D2733" stroke-width="2" marker-end="url(#arrow-ink)"/>
+  <rect x="81" y="170" width="156" height="18" rx="9" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="159" y="182.78" font-size="10.5" font-weight="500" fill="#1D2733" text-anchor="middle"><tspan x="159" dy="0">POST {"analystId":"ana"}</tspan></text>
+  <line x1="228" y1="228" x2="362" y2="228" stroke="#3E7CB1" stroke-width="2" marker-end="url(#arrow-fw)"/>
+  <rect x="197.5" y="208" width="199" height="18" rx="9" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="297" y="220.78" font-size="10.5" font-weight="500" fill="#1D2733" text-anchor="middle"><tspan x="297" dy="0">close(group, id, CloseCaseForm)</tspan></text>
+  <path d="M 366 260 h 26 v 14 h -24" fill="none" stroke="#5FAD56" stroke-width="1.8" marker-end="url(#arrow-ia)"/>
+  <text x="400" y="271" font-size="11.5" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="400" dy="0">Forms.errors() – shape only</tspan></text>
+  <line x1="366" y1="304" x2="500" y2="304" stroke="#5FAD56" stroke-width="2" marker-end="url(#arrow-ia)"/>
+  <rect x="320.5" y="284" width="229" height="18" rx="9" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="435" y="296.78" font-size="10.5" font-weight="500" fill="#1D2733" text-anchor="middle"><tspan x="435" dy="0">execute(CloseCaseRequest, presenter)</tspan></text>
+  <path d="M 504 336 h 26 v 14 h -24" fill="none" stroke="#E07A5F" stroke-width="1.8" marker-end="url(#arrow-uc)"/>
+  <text x="538" y="347" font-size="11.5" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="538" dy="0">ClientGroupId, CaseId, AnalystId</tspan></text>
+  <line x1="504" y1="380" x2="638" y2="380" stroke="#E07A5F" stroke-width="2" marker-end="url(#arrow-uc)"/>
+  <rect x="504" y="360" width="138" height="18" rx="9" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="573" y="372.78" font-size="10.5" font-weight="500" fill="#1D2733" text-anchor="middle"><tspan x="573" dy="0">write(() -&gt; …)  BEGIN</tspan></text>
+  <line x1="642" y1="418" x2="776" y2="418" stroke="#3E7CB1" stroke-width="2" marker-end="url(#arrow-fw)"/>
+  <rect x="611.5" y="398" width="199" height="18" rx="9" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="711" y="410.78" font-size="10.5" font-weight="500" fill="#1D2733" text-anchor="middle"><tspan x="711" dy="0">CaseLookup → cases.findById(id)</tspan></text>
+  <line x1="780" y1="456" x2="914" y2="456" stroke="#5FAD56" stroke-width="2" marker-end="url(#arrow-ia)"/>
+  <rect x="728.5" y="436" width="241" height="18" rx="9" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="849" y="448.78" font-size="10.5" font-weight="500" fill="#1D2733" text-anchor="middle"><tspan x="849" dy="0">rehydrate(snapshot) + belongsTo(group)</tspan></text>
+  <line x1="642" y1="494" x2="914" y2="494" stroke="#E07A5F" stroke-width="2" marker-end="url(#arrow-uc)"/>
+  <rect x="702" y="474" width="156" height="18" rx="9" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="780" y="486.78" font-size="10.5" font-weight="500" fill="#1D2733" text-anchor="middle"><tspan x="780" dy="0">case.close(analyst, now)</tspan></text>
+  <path d="M 918 526 h 26 v 14 h -24" fill="none" stroke="#F2C14E" stroke-width="1.8" marker-end="url(#arrow-ent)"/>
+  <text x="952" y="537" font-size="11.5" font-weight="400" fill="#1D2733" text-anchor="start" class="mono"><tspan x="952" dy="0">invariants ✓ → CaseClosed raised</tspan></text>
+  <line x1="642" y1="570" x2="776" y2="570" stroke="#E07A5F" stroke-width="2" marker-end="url(#arrow-uc)"/>
+  <rect x="578" y="550" width="266" height="18" rx="9" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="711" y="562.78" font-size="10.5" font-weight="500" fill="#1D2733" text-anchor="middle"><tspan x="711" dy="0">cases.save(case)  UPDATE … AND version = ?</tspan></text>
+  <line x1="642" y1="608" x2="1052" y2="608" stroke="#E07A5F" stroke-width="2" marker-end="url(#arrow-uc)"/>
+  <rect x="716" y="588" width="266" height="18" rx="9" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="849" y="600.78" font-size="10.5" font-weight="500" fill="#1D2733" text-anchor="middle"><tspan x="849" dy="0">outbox.append(events)  INSERT outbox_event</tspan></text>
+  <line x1="642" y1="646" x2="508" y2="646" stroke="#3E7CB1" stroke-width="2" marker-end="url(#arrow-fw)"/>
+  <rect x="504" y="626" width="138" height="18" rx="9" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="573" y="638.78" font-size="10.5" font-weight="500" fill="#1D2733" text-anchor="middle"><tspan x="573" dy="0">COMMIT → CaseResponse</tspan></text>
+  <line x1="504" y1="684" x2="1190" y2="684" stroke="#E07A5F" stroke-width="2" marker-end="url(#arrow-uc)"/>
+  <rect x="780" y="664" width="138" height="18" rx="9" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="849" y="676.78" font-size="10.5" font-weight="500" fill="#1D2733" text-anchor="middle"><tspan x="849" dy="0">presentCase(response)</tspan></text>
+  <path d="M 1194 716 h -26 v 14 h 24" fill="none" stroke="#5FAD56" stroke-width="1.8" marker-end="url(#arrow-ia)"/>
+  <text x="1160" y="727" font-size="11.5" font-weight="400" fill="#1D2733" text-anchor="end" class="mono"><tspan x="1160" dy="0">ViewModel(200, CaseJson, labels, actions)</tspan></text>
+  <line x1="366" y1="760" x2="232" y2="760" stroke="#5FAD56" stroke-width="2" marker-end="url(#arrow-ia)"/>
+  <rect x="228" y="740" width="138" height="18" rx="9" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="297" y="752.78" font-size="10.5" font-weight="500" fill="#1D2733" text-anchor="middle"><tspan x="297" dy="0">presenter.viewModel()</tspan></text>
+  <line x1="228" y1="798" x2="94" y2="798" stroke="#3E7CB1" stroke-width="2" marker-end="url(#arrow-fw)"/>
+  <rect x="93" y="778" width="132" height="18" rx="9" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="159" y="790.78" font-size="10.5" font-weight="500" fill="#1D2733" text-anchor="middle"><tspan x="159" dy="0">200 application/json</tspan></text>
+  <rect x="40" y="830" width="1200" height="50" rx="8" fill="#FDF1DC" stroke="none" stroke-width="1.5"/>
+  <text x="56" y="856" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="56" dy="0">Failure path: if close() throws DomainException(MATCHES_AWAITING_REVIEW), TransactionRunner rolls back, Outcomes calls presentRuleViolation and the client gets 422 – nothing is written.</tspan></text>
+
+</svg>

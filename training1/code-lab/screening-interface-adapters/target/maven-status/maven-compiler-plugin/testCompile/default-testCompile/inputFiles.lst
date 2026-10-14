@@ -1,0 +1,7 @@
+/Users/dharmendra/Java/plan/training1/code-lab/screening-interface-adapters/src/test/java/training/clean/screening/adapters/events/InMemoryOutboxRecords.java
+/Users/dharmendra/Java/plan/training1/code-lab/screening-interface-adapters/src/test/java/training/clean/screening/adapters/events/OutboxTest.java
+/Users/dharmendra/Java/plan/training1/code-lab/screening-interface-adapters/src/test/java/training/clean/screening/adapters/persistence/InMemoryCaseRecords.java
+/Users/dharmendra/Java/plan/training1/code-lab/screening-interface-adapters/src/test/java/training/clean/screening/adapters/persistence/SqlCaseGatewayTest.java
+/Users/dharmendra/Java/plan/training1/code-lab/screening-interface-adapters/src/test/java/training/clean/screening/adapters/reference/ReferenceDataTest.java
+/Users/dharmendra/Java/plan/training1/code-lab/screening-interface-adapters/src/test/java/training/clean/screening/adapters/web/CaseControllerTest.java
+/Users/dharmendra/Java/plan/training1/code-lab/screening-interface-adapters/src/test/java/training/clean/screening/adapters/web/CasePresenterTest.java

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: training.worldcheck.screening.adapter.out.persistence.JdbcCaseRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.131 s -- in training.worldcheck.screening.adapter.out.persistence.JdbcCaseRepositoryTest

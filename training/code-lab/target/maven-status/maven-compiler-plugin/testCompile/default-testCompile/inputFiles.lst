@@ -1,0 +1,7 @@
+/Users/dharmendra/Java/plan/training/code-lab/src/test/java/training/worldcheck/screening/adapter/in/rest/CaseApiTest.java
+/Users/dharmendra/Java/plan/training/code-lab/src/test/java/training/worldcheck/screening/adapter/out/persistence/JdbcCaseRepositoryTest.java
+/Users/dharmendra/Java/plan/training/code-lab/src/test/java/training/worldcheck/screening/application/CaseApplicationServiceTest.java
+/Users/dharmendra/Java/plan/training/code-lab/src/test/java/training/worldcheck/screening/architecture/HexagonalArchitectureTest.java
+/Users/dharmendra/Java/plan/training/code-lab/src/test/java/training/worldcheck/screening/domain/TestProfiles.java
+/Users/dharmendra/Java/plan/training/code-lab/src/test/java/training/worldcheck/screening/domain/model/ScreeningCaseTest.java
+/Users/dharmendra/Java/plan/training/code-lab/src/test/java/training/worldcheck/screening/domain/service/NameMatchingPolicyTest.java

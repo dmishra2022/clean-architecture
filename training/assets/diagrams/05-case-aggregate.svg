@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1280 820" width="1280" height="820" role="img" aria-label="ScreeningCase aggregate">
+  <title>ScreeningCase aggregate</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">The ScreeningCase aggregate</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">One consistency boundary = one transaction = one repository</tspan></text>
+  <line x1="40" y1="92" x2="1240" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <rect x="40" y="115" width="760" height="560" rx="18" fill="#F7FAFC" stroke="#1F3A5F" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <text x="60" y="142" font-size="13" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="60" dy="0">AGGREGATE BOUNDARY</tspan></text>
+  <rect x="250" y="160" width="340" height="150" rx="10" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="420" y="204.875" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="420" dy="0">ScreeningCase  «root»</tspan></text>
+  <text x="420" y="222.375" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="420" dy="0">id: CaseId    clientGroup: ClientGroupId</tspan></text>
+  <text x="420" y="239.875" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="420" dy="0">status: CaseStatus (derived)</tspan></text>
+  <text x="420" y="257.375" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="420" dy="0">outcome, screeningCount, version</tspan></text>
+  <text x="420" y="274.875" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="420" dy="0">screen() · resolveMatch() · close()</tspan></text>
+  <rect x="80" y="380" width="300" height="120" rx="10" fill="#2A9D8F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="230" y="418.625" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="230" dy="0">Match  «entity»</tspan></text>
+  <text x="230" y="436.125" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="230" dy="0">id: MatchId   profileId: ProfileId</tspan></text>
+  <text x="230" y="453.625" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="230" dy="0">score, resolution, rationale</tspan></text>
+  <text x="230" y="471.125" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="230" dy="0">no public setters</tspan></text>
+  <rect x="460" y="380" width="300" height="120" rx="10" fill="#2A9D8F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="610" y="418.625" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="610" dy="0">Match  «entity»</tspan></text>
+  <text x="610" y="436.125" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="610" dy="0">one per ReferenceProfile</tspan></text>
+  <text x="610" y="453.625" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="610" dy="0">never removed (audit)</tspan></text>
+  <text x="610" y="471.125" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="610" dy="0">changed only via the root</tspan></text>
+  <line x1="330" y1="312" x2="240" y2="378" stroke="#1F3A5F" stroke-width="2" marker-end="url(#arrow-navy)"/>
+  <line x1="510" y1="312" x2="600" y2="378" stroke="#1F3A5F" stroke-width="2" marker-end="url(#arrow-navy)"/>
+  <rect x="264" y="335" width="42" height="20" rx="10" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="285" y="349.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="285" dy="0">0..*</tspan></text>
+  <rect x="70" y="540" width="132" height="70" rx="10" fill="#E9A23B" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="136" y="579.3875" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="136" dy="0">Party</tspan></text>
+  <rect x="216" y="540" width="132" height="70" rx="10" fill="#E9A23B" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="282" y="579.3875" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="282" dy="0">PartyName</tspan></text>
+  <rect x="362" y="540" width="132" height="70" rx="10" fill="#E9A23B" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="428" y="579.3875" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="428" dy="0">CountryCode</tspan></text>
+  <rect x="508" y="540" width="132" height="70" rx="10" fill="#E9A23B" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="574" y="579.3875" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="574" dy="0">MatchScore</tspan></text>
+  <rect x="654" y="540" width="132" height="70" rx="10" fill="#E9A23B" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="720" y="570.95" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="720" dy="0">Resolution</tspan><tspan x="720" dy="16.875">Rationale</tspan></text>
+  <text x="420" y="645" font-size="13" font-weight="400" fill="#5B6B7F" text-anchor="middle" font-style="italic"><tspan x="420" dy="0">Value objects: immutable records, validate themselves, equal by value</tspan></text>
+  <rect x="860" y="140" width="380" height="80" rx="10" fill="#5B6B7F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1050" y="176.125" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1050" dy="0">Client &amp; Entitlements context</tspan></text>
+  <text x="1050" y="193.625" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1050" dy="0">referenced by ClientGroupId only</tspan></text>
+  <rect x="860" y="250" width="380" height="80" rx="10" fill="#5B6B7F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1050" y="286.125" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1050" dy="0">Risk Intelligence Data context</tspan></text>
+  <text x="1050" y="303.625" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1050" dy="0">referenced by ProfileId only</tspan></text>
+  <line x1="592" y1="200" x2="858" y2="180" stroke="#5B6B7F" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow-slate)"/>
+  <line x1="762" y1="430" x2="858" y2="300" stroke="#5B6B7F" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow-slate)"/>
+  <rect x="860" y="370" width="380" height="150" rx="10" fill="#6D5BD0" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1050" y="414.875" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1050" dy="0">Domain events (raised, not sent)</tspan></text>
+  <text x="1050" y="432.375" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="1050" dy="0">CaseOpened</tspan></text>
+  <text x="1050" y="449.875" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="1050" dy="0">CaseScreened</tspan></text>
+  <text x="1050" y="467.375" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="1050" dy="0">MatchResolved</tspan></text>
+  <text x="1050" y="484.875" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="1050" dy="0">CaseClosed</tspan></text>
+  <line x1="592" y1="260" x2="858" y2="420" stroke="#6D5BD0" stroke-width="2.5" marker-end="url(#arrow-purple)"/>
+  <rect x="860" y="545" width="380" height="245" rx="12" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <text x="878" y="572" font-size="14" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="878" dy="0">Invariants the root guarantees</tspan></text>
+  <text x="878" y="600" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="878" dy="0">1  Closed case accepts no commands</tspan></text>
+  <text x="878" y="626" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="878" dy="0">2  ≤ 1 match per profile; rescreen keeps resolutions</tspan></text>
+  <text x="878" y="652" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="878" dy="0">3  Matches are never deleted</tspan></text>
+  <text x="878" y="678" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="878" dy="0">4  Resolution ≠ UNRESOLVED and has a rationale</tspan></text>
+  <text x="878" y="704" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="878" dy="0">5  Four-eyes on downgrading a POSITIVE</tspan></text>
+  <text x="878" y="730" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="878" dy="0">6  Close only if screened, none UNRESOLVED/POSSIBLE</tspan></text>
+  <text x="878" y="756" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="878" dy="0">7  Status is derived, never set</tspan></text>
+  <rect x="40" y="700" width="760" height="90" rx="10" fill="#FDF1DC" stroke="none" stroke-width="1.5"/>
+  <text x="60" y="728" font-size="14" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="60" dy="0">Design rules (Vernon)</tspan></text>
+  <text x="60" y="752" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">Model true invariants in consistency boundaries · design small aggregates ·</tspan></text>
+  <text x="60" y="774" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">reference other aggregates by identity · use eventual consistency outside the boundary</tspan></text>
+
+</svg>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1400 760" width="1400" height="760" role="img" aria-label="Event storming board">
+  <title>Event storming board</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Event Storming: screening a party (process level)</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">Read left to right. Orange = what happened. Everything else explains why and who.</tspan></text>
+  <line x1="40" y1="92" x2="1360" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <line x1="50" y1="300" x2="1350" y2="300" stroke="#1D2733" stroke-width="2" marker-end="url(#arrow-ink)"/>
+  <text x="1350" y="290" font-size="13" font-weight="700" fill="#5B6B7F" text-anchor="end"><tspan x="1350" dy="0">time →</tspan></text>
+  <g transform="rotate(-1 106 185.92)">
+  <rect x="50" y="140" width="112" height="91.83999999999999" fill="#FFF3B0" filter="url(#shadow)"/>
+  <text x="106" y="182.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="106" dy="0">Onboarding</tspan><tspan x="106" dy="15.625">analyst</tspan></text>
+  </g>
+  <line x1="164" y1="185.92" x2="196" y2="185.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(1 254 185.92)">
+  <rect x="198" y="140" width="112" height="91.83999999999999" fill="#7EC8E3" filter="url(#shadow)"/>
+  <text x="254" y="182.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="254" dy="0">Submit party</tspan><tspan x="254" dy="15.625">for screening</tspan></text>
+  </g>
+  <line x1="312" y1="185.92" x2="344" y2="185.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(-1 402 185.92)">
+  <rect x="346" y="140" width="112" height="91.83999999999999" fill="#FFE066" filter="url(#shadow)"/>
+  <text x="402" y="182.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="402" dy="0">Screening</tspan><tspan x="402" dy="15.625">Case</tspan></text>
+  </g>
+  <line x1="460" y1="185.92" x2="492" y2="185.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(1 550 185.92)">
+  <rect x="494" y="140" width="112" height="91.83999999999999" fill="#F4A261" filter="url(#shadow)"/>
+  <text x="550" y="182.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="550" dy="0">Case</tspan><tspan x="550" dy="15.625">Opened</tspan></text>
+  </g>
+  <line x1="608" y1="185.92" x2="640" y2="185.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(-1 698 185.92)">
+  <rect x="642" y="140" width="112" height="91.83999999999999" fill="#C3AED6" filter="url(#shadow)"/>
+  <text x="698" y="182.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="698" dy="0">Whenever opened</tspan><tspan x="698" dy="15.625">→ screen it</tspan></text>
+  </g>
+  <line x1="756" y1="185.92" x2="788" y2="185.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(1 846 185.92)">
+  <rect x="790" y="140" width="112" height="91.83999999999999" fill="#7EC8E3" filter="url(#shadow)"/>
+  <text x="846" y="182.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="846" dy="0">Screen</tspan><tspan x="846" dy="15.625">case</tspan></text>
+  </g>
+  <line x1="904" y1="185.92" x2="936" y2="185.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(-1 994 185.92)">
+  <rect x="938" y="140" width="112" height="91.83999999999999" fill="#F7A1C4" filter="url(#shadow)"/>
+  <text x="994" y="182.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="994" dy="0">Risk data</tspan><tspan x="994" dy="15.625">corpus</tspan></text>
+  </g>
+  <line x1="1052" y1="185.92" x2="1084" y2="185.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(1 1142 185.92)">
+  <rect x="1086" y="140" width="112" height="91.83999999999999" fill="#F4A261" filter="url(#shadow)"/>
+  <text x="1142" y="182.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="1142" dy="0">Case</tspan><tspan x="1142" dy="15.625">Screened</tspan></text>
+  </g>
+  <line x1="1200" y1="185.92" x2="1232" y2="185.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(-1 1290 185.92)">
+  <rect x="1234" y="140" width="112" height="91.83999999999999" fill="#9BE7A0" filter="url(#shadow)"/>
+  <text x="1290" y="182.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="1290" dy="0">Analyst</tspan><tspan x="1290" dy="15.625">work queue</tspan></text>
+  </g>
+  <g transform="rotate(-1 106 385.92)">
+  <rect x="50" y="340" width="112" height="91.83999999999999" fill="#FFF3B0" filter="url(#shadow)"/>
+  <text x="106" y="390.42" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="106" dy="0">Analyst</tspan></text>
+  </g>
+  <line x1="164" y1="385.92" x2="196" y2="385.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(1 254 385.92)">
+  <rect x="198" y="340" width="112" height="91.83999999999999" fill="#7EC8E3" filter="url(#shadow)"/>
+  <text x="254" y="382.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="254" dy="0">Resolve</tspan><tspan x="254" dy="15.625">match</tspan></text>
+  </g>
+  <line x1="312" y1="385.92" x2="344" y2="385.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(-1 402 385.92)">
+  <rect x="346" y="340" width="112" height="91.83999999999999" fill="#FFE066" filter="url(#shadow)"/>
+  <text x="402" y="382.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="402" dy="0">Screening</tspan><tspan x="402" dy="15.625">Case</tspan></text>
+  </g>
+  <line x1="460" y1="385.92" x2="492" y2="385.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(1 550 385.92)">
+  <rect x="494" y="340" width="112" height="91.83999999999999" fill="#F4A261" filter="url(#shadow)"/>
+  <text x="550" y="382.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="550" dy="0">Match</tspan><tspan x="550" dy="15.625">Resolved</tspan></text>
+  </g>
+  <line x1="608" y1="385.92" x2="640" y2="385.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(-1 698 385.92)">
+  <rect x="642" y="340" width="112" height="91.83999999999999" fill="#E76F6F" filter="url(#shadow)"/>
+  <text x="698" y="374.795" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="698" dy="0">Who may</tspan><tspan x="698" dy="15.625">downgrade a</tspan><tspan x="698" dy="15.625">positive?</tspan></text>
+  </g>
+  <line x1="756" y1="385.92" x2="788" y2="385.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(1 846 385.92)">
+  <rect x="790" y="340" width="112" height="91.83999999999999" fill="#7EC8E3" filter="url(#shadow)"/>
+  <text x="846" y="382.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="846" dy="0">Close</tspan><tspan x="846" dy="15.625">case</tspan></text>
+  </g>
+  <line x1="904" y1="385.92" x2="936" y2="385.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(-1 994 385.92)">
+  <rect x="938" y="340" width="112" height="91.83999999999999" fill="#F4A261" filter="url(#shadow)"/>
+  <text x="994" y="382.6075" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="994" dy="0">Case</tspan><tspan x="994" dy="15.625">Closed</tspan></text>
+  </g>
+  <line x1="1052" y1="385.92" x2="1084" y2="385.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(1 1142 385.92)">
+  <rect x="1086" y="340" width="112" height="91.83999999999999" fill="#C3AED6" filter="url(#shadow)"/>
+  <text x="1142" y="374.795" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="1142" dy="0">Whenever closed</tspan><tspan x="1142" dy="15.625">with risk →</tspan><tspan x="1142" dy="15.625">notify client</tspan></text>
+  </g>
+  <line x1="1200" y1="385.92" x2="1232" y2="385.92" stroke="#5B6B7F" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <g transform="rotate(-1 1290 385.92)">
+  <rect x="1234" y="340" width="112" height="91.83999999999999" fill="#F7A1C4" filter="url(#shadow)"/>
+  <text x="1290" y="390.42" font-size="12.5" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="1290" dy="0">Notifications</tspan></text>
+  </g>
+  <rect x="50" y="470" width="640" height="250" rx="12" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <text x="70" y="500" font-size="15" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="70" dy="0">Legend</tspan></text>
+  <rect x="70" y="522" width="16" height="16" rx="3" fill="#F4A261" stroke="none" stroke-width="1.5"/>
+  <text x="96" y="534.5" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="96" dy="0">Domain event – past tense, business language</tspan></text>
+  <rect x="70" y="547" width="16" height="16" rx="3" fill="#7EC8E3" stroke="none" stroke-width="1.5"/>
+  <text x="96" y="559.5" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="96" dy="0">Command – intention, imperative</tspan></text>
+  <rect x="70" y="572" width="16" height="16" rx="3" fill="#FFE066" stroke="none" stroke-width="1.5"/>
+  <text x="96" y="584.5" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="96" dy="0">Aggregate – accepts/rejects commands, emits events</tspan></text>
+  <rect x="70" y="597" width="16" height="16" rx="3" fill="#C3AED6" stroke="none" stroke-width="1.5"/>
+  <text x="96" y="609.5" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="96" dy="0">Policy – "whenever X, then Y" (reactive logic)</tspan></text>
+  <rect x="70" y="622" width="16" height="16" rx="3" fill="#9BE7A0" stroke="none" stroke-width="1.5"/>
+  <text x="96" y="634.5" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="96" dy="0">Read model – data a person needs to decide</tspan></text>
+  <rect x="70" y="647" width="16" height="16" rx="3" fill="#F7A1C4" stroke="none" stroke-width="1.5"/>
+  <text x="96" y="659.5" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="96" dy="0">External system / other context</tspan></text>
+  <rect x="70" y="672" width="16" height="16" rx="3" fill="#E76F6F" stroke="none" stroke-width="1.5"/>
+  <text x="96" y="684.5" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="96" dy="0">Hotspot – question, conflict, risk</tspan></text>
+  <rect x="720" y="470" width="630" height="250" rx="12" fill="#FDF1DC" stroke="none" stroke-width="1.5"/>
+  <text x="740" y="500" font-size="15" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="740" dy="0">What this board told us</tspan></text>
+  <text x="740" y="532" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="740" dy="0">• One aggregate (Screening Case) handles all four commands → one consistency boundary.</tspan></text>
+  <text x="740" y="562" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="740" dy="0">• "Whenever opened → screen it" is a policy: can be automatic or a button – a product choice.</tspan></text>
+  <text x="740" y="592" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="740" dy="0">• Risk data is another context → we need a port (ReferenceDataSource) and an ACL.</tspan></text>
+  <text x="740" y="622" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="740" dy="0">• Hotspot became an invariant: FOUR_EYES (a 2nd analyst must downgrade a positive).</tspan></text>
+  <text x="740" y="652" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="740" dy="0">• "Notify client" crosses a context → integration event via outbox, not a direct call.</tspan></text>
+  <text x="740" y="682" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="740" dy="0">• Event names became Java records: CaseOpened, CaseScreened, MatchResolved, CaseClosed.</tspan></text>
+
+</svg>

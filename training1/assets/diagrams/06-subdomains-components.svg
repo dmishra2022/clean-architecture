@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1280 760" width="1280" height="760" role="img" aria-label="Subdomains to components">
+  <title>Subdomains to components</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-ent" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-uc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-uc" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ia" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-ia" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fw" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-entDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-entDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ucDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-ucDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-iaDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-iaDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fwDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fwDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">From subdomains to bounded contexts to rings</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">Strategic DDD decides the boundaries between services; Clean Architecture organises the inside of each one</tspan></text>
+  <line x1="40" y1="92" x2="1240" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="40" y="130" font-size="16" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Subdomains → bounded contexts</tspan></text>
+  <rect x="40" y="148" width="330" height="68" rx="10" fill="#FDF1DC" stroke="#1F3A5F" stroke-width="3"/>
+  <text x="58" y="178" font-size="15" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="58" dy="0">Screening &amp; Case</tspan></text>
+  <rect x="258" y="166" width="96" height="28" rx="14" fill="#FFFFFF" stroke="#1F3A5F" stroke-width="1.8"/>
+  <text x="306" y="184.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="306" dy="0">core</tspan></text>
+  <text x="58" y="200" font-size="12" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="58" dy="0">this course – zoomed in on the right</tspan></text>
+  <rect x="40" y="230" width="330" height="68" rx="10" fill="#fff" stroke="#1F3A5F" stroke-width="1.8"/>
+  <text x="58" y="260" font-size="15" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="58" dy="0">Risk Intelligence Data</tspan></text>
+  <rect x="258" y="248" width="96" height="28" rx="14" fill="#FFFFFF" stroke="#1F3A5F" stroke-width="1.8"/>
+  <text x="306" y="266.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="306" dy="0">core</tspan></text>
+  <text x="58" y="282" font-size="12" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="58" dy="0">its own service and its own rings</tspan></text>
+  <rect x="40" y="312" width="330" height="68" rx="10" fill="#fff" stroke="#1F3A5F" stroke-width="1.8"/>
+  <text x="58" y="342" font-size="15" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="58" dy="0">Ongoing Monitoring</tspan></text>
+  <rect x="258" y="330" width="96" height="28" rx="14" fill="#FFFFFF" stroke="#1F3A5F" stroke-width="1.8"/>
+  <text x="306" y="348.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="306" dy="0">core</tspan></text>
+  <text x="58" y="364" font-size="12" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="58" dy="0">its own service and its own rings</tspan></text>
+  <rect x="40" y="394" width="330" height="68" rx="10" fill="#fff" stroke="#2A9D8F" stroke-width="1.8"/>
+  <text x="58" y="424" font-size="15" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="58" dy="0">Client &amp; Entitlements</tspan></text>
+  <rect x="258" y="412" width="96" height="28" rx="14" fill="#FFFFFF" stroke="#2A9D8F" stroke-width="1.8"/>
+  <text x="306" y="430.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="306" dy="0">supporting</tspan></text>
+  <text x="58" y="446" font-size="12" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="58" dy="0">its own service and its own rings</tspan></text>
+  <rect x="40" y="476" width="330" height="68" rx="10" fill="#fff" stroke="#2A9D8F" stroke-width="1.8"/>
+  <text x="58" y="506" font-size="15" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="58" dy="0">Audit &amp; Reporting</tspan></text>
+  <rect x="258" y="494" width="96" height="28" rx="14" fill="#FFFFFF" stroke="#2A9D8F" stroke-width="1.8"/>
+  <text x="306" y="512.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="306" dy="0">supporting</tspan></text>
+  <text x="58" y="528" font-size="12" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="58" dy="0">its own service and its own rings</tspan></text>
+  <rect x="40" y="558" width="330" height="68" rx="10" fill="#fff" stroke="#5B6B7F" stroke-width="1.8"/>
+  <text x="58" y="588" font-size="15" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="58" dy="0">Notifications</tspan></text>
+  <rect x="258" y="576" width="96" height="28" rx="14" fill="#FFFFFF" stroke="#5B6B7F" stroke-width="1.8"/>
+  <text x="306" y="594.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="306" dy="0">generic</tspan></text>
+  <text x="58" y="610" font-size="12" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="58" dy="0">buy or reuse – thin rings, if any</tspan></text>
+  <line x1="372" y1="182" x2="458" y2="300" stroke="#1D2733" stroke-width="2.5" marker-end="url(#arrow-ink)"/>
+  <rect x="460" y="130" width="780" height="590" rx="18" fill="#E2EDF7" stroke="#3E7CB1" stroke-width="2"/>
+  <text x="474" y="152" font-size="13" font-weight="800" fill="#1F4E79" text-anchor="start"><tspan x="474" dy="0">screening-app  (ring 4)</tspan></text>
+  <rect x="490" y="170" width="720" height="480" rx="18" fill="#E6F3E4" stroke="#5FAD56" stroke-width="2"/>
+  <text x="504" y="192" font-size="13" font-weight="800" fill="#2F6B28" text-anchor="start"><tspan x="504" dy="0">screening-interface-adapters  (ring 3)</tspan></text>
+  <rect x="520" y="210" width="660" height="300" rx="18" fill="#FBE7E1" stroke="#E07A5F" stroke-width="2"/>
+  <text x="534" y="232" font-size="13" font-weight="800" fill="#9C3D24" text-anchor="start"><tspan x="534" dy="0">screening-usecases  (ring 2)</tspan></text>
+  <rect x="550" y="250" width="600" height="120" rx="18" fill="#FDF4DA" stroke="#F2C14E" stroke-width="2"/>
+  <text x="564" y="272" font-size="13" font-weight="800" fill="#8A6A12" text-anchor="start"><tspan x="564" dy="0">screening-entities  (ring 1)</tspan></text>
+  <text x="850" y="312" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="850" dy="0">ScreeningCase · Match · PartyName · NameMatchingPolicy</tspan></text>
+  <text x="850" y="338" font-size="12.5" font-weight="400" fill="#8A6A12" text-anchor="middle" font-style="italic"><tspan x="850" dy="0">the ubiquitous language of the Screening context</tspan></text>
+  <text x="850" y="410" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="850" dy="0">OpenCase · ScreenCase · ResolveMatch · CloseCase · ViewCase · ListWorkQueue</tspan></text>
+  <text x="850" y="434" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="850" dy="0">CaseGateway · ReferenceDataGateway · EventOutboxGateway</tspan></text>
+  <text x="850" y="474" font-size="12.5" font-weight="400" fill="#9C3D24" text-anchor="middle" font-style="italic"><tspan x="850" dy="0">one package per use case – the architecture screams "screening"</tspan></text>
+  <rect x="510" y="530" width="220" height="96" rx="10" fill="#fff" stroke="#5FAD56" stroke-width="2"/>
+  <text x="620" y="560" font-size="14" font-weight="800" fill="#2F6B28" text-anchor="middle"><tspan x="620" dy="0">Open Host Service</tspan></text>
+  <text x="620" y="586" font-size="12" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="620" dy="0">CaseController</tspan><tspan x="620" dy="16.799999999999997">CasePresenter</tspan><tspan x="620" dy="16.799999999999997">CaseJson</tspan></text>
+  <rect x="750" y="530" width="220" height="96" rx="10" fill="#fff" stroke="#5FAD56" stroke-width="2"/>
+  <text x="860" y="560" font-size="14" font-weight="800" fill="#2F6B28" text-anchor="middle"><tspan x="860" dy="0">Anti-corruption layer</tspan></text>
+  <text x="860" y="586" font-size="12" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="860" dy="0">ProfileTranslator</tspan><tspan x="860" dy="16.799999999999997">RemoteReferenceData</tspan></text>
+  <rect x="990" y="530" width="220" height="96" rx="10" fill="#fff" stroke="#5FAD56" stroke-width="2"/>
+  <text x="1100" y="560" font-size="14" font-weight="800" fill="#2F6B28" text-anchor="middle"><tspan x="1100" dy="0">Published language</tspan></text>
+  <text x="1100" y="586" font-size="12" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="1100" dy="0">EventJson v1</tspan><tspan x="1100" dy="16.799999999999997">OutboxRelay</tspan></text>
+  <text x="850" y="690" font-size="12.5" font-weight="400" fill="#1F4E79" text-anchor="middle" class="mono"><tspan x="850" dy="0">CaseEndpoint (HTTP) · MicronautReferenceDataClient (@Client) · LoggingEventSink · H2 · MainWiring</tspan></text>
+
+</svg>

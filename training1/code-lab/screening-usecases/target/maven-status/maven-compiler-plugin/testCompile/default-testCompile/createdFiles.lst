@@ -1,0 +1,11 @@
+training/clean/screening/usecases/workqueue/ListWorkQueueInteractorTest$Recording.class
+training/clean/screening/usecases/testsupport/TestWorld$ReferenceData.class
+training/clean/screening/usecases/testsupport/TestWorld$Outbox.class
+training/clean/screening/usecases/workqueue/ListWorkQueueInteractorTest.class
+training/clean/screening/usecases/CaseUseCasesTest.class
+training/clean/screening/usecases/testsupport/RecordingPresenter.class
+training/clean/screening/usecases/testsupport/TestWorld$Keys.class
+training/clean/screening/usecases/testsupport/TestWorld$Cases.class
+training/clean/screening/usecases/testsupport/TestWorld$Transactions.class
+training/clean/screening/usecases/testsupport/TestWorld.class
+training/clean/screening/usecases/workqueue/ListWorkQueueInteractorTest$DirectTransactions.class

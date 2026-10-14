@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1280 700" width="1280" height="700" role="img" aria-label="Micronaut bean resolution">
+  <title>Micronaut bean resolution</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Swapping an adapter with configuration, not code</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">Micronaut evaluates @Requires at startup and injects exactly one ReferenceDataSource</tspan></text>
+  <line x1="40" y1="92" x2="1240" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <rect x="40" y="130" width="330" height="140" rx="10" fill="#0F1B2D" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="54" y="177.575" font-size="15" font-weight="700" fill="#fff" text-anchor="start"><tspan x="54" dy="0">application.yml</tspan></text>
+  <text x="54" y="195.77499999999998" font-size="13" font-weight="400" fill="#fff" text-anchor="start" class="mono" opacity="0.95"><tspan x="54" dy="0">screening:</tspan></text>
+  <text x="54" y="213.97499999999997" font-size="13" font-weight="400" fill="#fff" text-anchor="start" class="mono" opacity="0.95"><tspan x="54" dy="0">  reference-data:</tspan></text>
+  <text x="54" y="232.17499999999995" font-size="13" font-weight="400" fill="#fff" text-anchor="start" class="mono" opacity="0.95"><tspan x="54" dy="0">    mode: in-memory   # or http</tspan></text>
+  <rect x="40" y="300" width="330" height="110" rx="10" fill="#0F1B2D" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="54" y="343.075" font-size="15" font-weight="700" fill="#fff" text-anchor="start"><tspan x="54" dy="0">or override at launch</tspan></text>
+  <text x="54" y="359.875" font-size="12" font-weight="400" fill="#fff" text-anchor="start" class="mono" opacity="0.95"><tspan x="54" dy="0">-Dscreening.reference-data.mode=http</tspan></text>
+  <text x="54" y="376.675" font-size="12" font-weight="400" fill="#fff" text-anchor="start" class="mono" opacity="0.95"><tspan x="54" dy="0">SCREENING_REFERENCE_DATA_MODE=http</tspan></text>
+  <rect x="450" y="150" width="360" height="110" rx="10" fill="#E9A23B" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="630" y="193.87" font-size="14" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="630" dy="0">InMemoryReferenceDataSource</tspan></text>
+  <text x="630" y="209.55" font-size="11.2" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono" opacity="0.95"><tspan x="630" dy="0">@Requires(property = "…mode",</tspan></text>
+  <text x="630" y="225.23000000000002" font-size="11.2" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono" opacity="0.95"><tspan x="630" dy="0">  value = "in-memory", defaultValue = "in-memory")</tspan></text>
+  <rect x="450" y="300" width="360" height="110" rx="10" fill="#E9A23B" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="630" y="343.87" font-size="14" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="630" dy="0">HttpReferenceDataSource</tspan></text>
+  <text x="630" y="359.55" font-size="11.2" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono" opacity="0.95"><tspan x="630" dy="0">@Requires(property = "…mode", value = "http")</tspan></text>
+  <text x="630" y="375.23" font-size="11.2" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono" opacity="0.95"><tspan x="630" dy="0">+ @Client("reference-data") + ACL translate()</tspan></text>
+  <line x1="372" y1="200" x2="448" y2="205" stroke="#3C9D5D" stroke-width="2.6" marker-end="url(#arrow-green)"/>
+  <line x1="372" y1="355" x2="448" y2="355" stroke="#5B6B7F" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrow-slate)"/>
+  <rect x="382" y="172" width="56" height="20" rx="10" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="410" y="186.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="410" dy="0">active</tspan></text>
+  <rect x="890" y="210" width="350" height="140" rx="10" fill="#6D5BD0" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1065" y="260.725" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1065" dy="0">ApplicationWiring</tspan></text>
+  <text x="1065" y="276.82500000000005" font-size="11.5" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="1065" dy="0">caseApplicationService(</tspan></text>
+  <text x="1065" y="292.92500000000007" font-size="11.5" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="1065" dy="0">  …, ReferenceDataSource referenceData, …)</tspan></text>
+  <text x="1065" y="309.0250000000001" font-size="11.5" font-weight="400" fill="#fff" text-anchor="middle" class="mono" opacity="0.95"><tspan x="1065" dy="0">→ new CaseApplicationService(...)</tspan></text>
+  <line x1="812" y1="205" x2="888" y2="250" stroke="#3C9D5D" stroke-width="2.6" marker-end="url(#arrow-green)"/>
+  <line x1="812" y1="355" x2="888" y2="320" stroke="#5B6B7F" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrow-slate)"/>
+  <rect x="40" y="450" width="1200" height="210" rx="12" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <text x="60" y="480" font-size="15" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="60" dy="0">Other selection tools you will use</tspan></text>
+  <text x="60" y="512" font-size="13" font-weight="700" fill="#1D2733" text-anchor="start" class="mono"><tspan x="60" dy="0">@Requires(env = "test")</tspan></text>
+  <text x="520" y="512" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="520" dy="0">bean only exists in tests (e.g. a fake clock)</tspan></text>
+  <text x="60" y="536" font-size="13" font-weight="700" fill="#1D2733" text-anchor="start" class="mono"><tspan x="60" dy="0">@Requires(notEnv = Environment.TEST)</tspan></text>
+  <text x="520" y="536" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="520" dy="0">keep a scheduler out of unit tests</tspan></text>
+  <text x="60" y="560" font-size="13" font-weight="700" fill="#1D2733" text-anchor="start" class="mono"><tspan x="60" dy="0">@Requires(beans = DataSource.class)</tspan></text>
+  <text x="520" y="560" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="520" dy="0">only when another bean exists</tspan></text>
+  <text x="60" y="584" font-size="13" font-weight="700" fill="#1D2733" text-anchor="start" class="mono"><tspan x="60" dy="0">@Replaces(InMemoryReferenceDataSource.class)</tspan></text>
+  <text x="520" y="584" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="520" dy="0">override a bean from a library or test</tspan></text>
+  <text x="60" y="608" font-size="13" font-weight="700" fill="#1D2733" text-anchor="start" class="mono"><tspan x="60" dy="0">@Named("primary") / @Primary</tspan></text>
+  <text x="520" y="608" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="520" dy="0">choose among several beans of one type</tspan></text>
+  <text x="60" y="632" font-size="13" font-weight="700" fill="#1D2733" text-anchor="start" class="mono"><tspan x="60" dy="0">@MockBean (micronaut-test)</tspan></text>
+  <text x="520" y="632" font-size="13" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="520" dy="0">replace a port with a mock inside @MicronautTest</tspan></text>
+
+</svg>

@@ -1,0 +1,1 @@
+{"groups":[{"name":"screening.matching","type":"training.clean.screening.app.config.MatchingProperties","description":"Bound from {@code screening.matching.*} at startup; invalid values fail fast before traffic arrives."}],"properties":[{"name":"screening.matching.threshold","type":"int","sourceType":"training.clean.screening.app.config.MatchingProperties","defaultValue":"80"}]}

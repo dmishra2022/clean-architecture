@@ -1,0 +1,7 @@
+training/clean/screening/adapters/persistence/InMemoryCaseRecords.class
+training/clean/screening/adapters/events/OutboxTest.class
+training/clean/screening/adapters/events/InMemoryOutboxRecords.class
+training/clean/screening/adapters/web/CasePresenterTest.class
+training/clean/screening/adapters/reference/ReferenceDataTest.class
+training/clean/screening/adapters/web/CaseControllerTest.class
+training/clean/screening/adapters/persistence/SqlCaseGatewayTest.class

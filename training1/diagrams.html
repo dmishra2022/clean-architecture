@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Diagram gallery – DDD + Clean Architecture + Micronaut</title>
+  <style>
+    body { font-family: Inter, "Segoe UI", Arial, sans-serif; margin: 0; background: #EEF2F6; color: #1D2733; }
+    header { background: #1F3A5F; color: #fff; padding: 20px 32px; }
+    header a { color: #E9A23B; }
+    nav { display: flex; flex-wrap: wrap; gap: 6px 14px; padding: 12px 32px; background: #fff; border-bottom: 1px solid #D5DDE6; font-size: 14px; }
+    nav a { color: #1F3A5F; }
+    main { padding: 24px 32px; display: grid; gap: 28px; }
+    figure { margin: 0; background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 2px 8px rgba(29,39,51,.12); }
+    figure img { width: 100%; height: auto; display: block; }
+    figcaption { margin-top: 8px; font-size: 14px; color: #5B6B7F; }
+  </style>
+</head>
+<body>
+<header>
+  <h1 style="margin:0">Diagram gallery</h1>
+  <p style="margin:6px 0 0">All figures used in the Clean Architecture course, full size for workshops and slides. Back to the <a href="index.html">interactive course</a>. Regenerate with <code>node tools/build-diagrams.mjs</code>.</p>
+</header>
+<nav>
+  <a href="#d01">01 Rings</a><a href="#d02">02 Control vs dependency</a><a href="#d03">03 Mapping</a><a href="#d04">04 Components</a>
+  <a href="#d05">05 Module graph</a><a href="#d06">06 Subdomains</a><a href="#d07">07 Aggregate</a><a href="#d08">08 Use case anatomy</a>
+  <a href="#d09">09 Request sequence</a><a href="#d10">10 Modules</a><a href="#d11">11 Micronaut wiring</a><a href="#d12">12 Tests</a>
+  <a href="#d13">13 Outbox</a><a href="#d14">14 Packaging</a><a href="#d15">15 Partial boundaries</a><a href="#d16">16 Process manager</a>
+</nav>
+<main>
+  <figure id="d01"><img src="assets/diagrams/01-clean-rings.svg" alt="Clean Architecture rings"><figcaption>01 · The four rings and the dependency rule (Modules 0 and 1)</figcaption></figure>
+  <figure id="d02"><img src="assets/diagrams/02-control-vs-dependency.svg" alt="Flow of control vs source dependencies"><figcaption>02 · Flow of control vs source-code dependencies (Module 9)</figcaption></figure>
+  <figure id="d03"><img src="assets/diagrams/03-architecture-mapping.svg" alt="Clean vs hexagonal vs layered"><figcaption>03 · Clean, hexagonal and layered side by side (Module 1)</figcaption></figure>
+  <figure id="d04"><img src="assets/diagrams/04-component-principles.svg" alt="Component principles"><figcaption>04 · Component principles and the main sequence (Module 3)</figcaption></figure>
+  <figure id="d05"><img src="assets/diagrams/05-module-graph.svg" alt="Maven module graph"><figcaption>05 · Maven module graph of the code lab (Modules 3 and 10)</figcaption></figure>
+  <figure id="d06"><img src="assets/diagrams/06-subdomains-components.svg" alt="Subdomains and components"><figcaption>06 · Subdomains, bounded contexts and components (Module 4)</figcaption></figure>
+  <figure id="d07"><img src="assets/diagrams/07-case-aggregate.svg" alt="ScreeningCase aggregate"><figcaption>07 · The ScreeningCase aggregate in ring 1 (Module 5)</figcaption></figure>
+  <figure id="d08"><img src="assets/diagrams/08-use-case-anatomy.svg" alt="Use case anatomy"><figcaption>08 · Anatomy of a use case: boundary, interactor, models, gateways, presenter (Module 6)</figcaption></figure>
+  <figure id="d09"><img src="assets/diagrams/09-request-sequence.svg" alt="Request sequence"><figcaption>09 · One request through every ring (Modules 9 and 13)</figcaption></figure>
+  <figure id="d10"><img src="assets/diagrams/10-module-structure.svg" alt="Module structure"><figcaption>10 · Module and package structure (Module 10)</figcaption></figure>
+  <figure id="d11"><img src="assets/diagrams/11-micronaut-wiring.svg" alt="Micronaut wiring"><figcaption>11 · Micronaut in ring 4 only: the Main component wires plain classes (Modules 8 and 11)</figcaption></figure>
+  <figure id="d12"><img src="assets/diagrams/12-tests-per-ring.svg" alt="Tests per ring"><figcaption>12 · Tests per ring (Module 12)</figcaption></figure>
+  <figure id="d13"><img src="assets/diagrams/13-outbox.svg" alt="Transactional outbox"><figcaption>13 · Transactional outbox across the rings (Module 14)</figcaption></figure>
+  <figure id="d14"><img src="assets/diagrams/14-packaging-options.svg" alt="Packaging options"><figcaption>14 · Four ways to package the same code (Module 10)</figcaption></figure>
+  <figure id="d15"><img src="assets/diagrams/15-partial-boundaries.svg" alt="Partial boundaries"><figcaption>15 · Full and partial boundaries (Module 9)</figcaption></figure>
+  <figure id="d16"><img src="assets/diagrams/16-process-manager.svg" alt="Process manager"><figcaption>16 · Ongoing monitoring process manager between two Clean services (Module 14)</figcaption></figure>
+</main>
+</body>
+</html>

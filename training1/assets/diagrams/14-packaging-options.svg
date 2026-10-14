@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Packaging options">
+  <title>Packaging options</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-ent" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-uc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-uc" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ia" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-ia" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fw" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-entDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A6A12"/>
+    </marker>
+    <marker id="hollow-entDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#8A6A12" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ucDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9C3D24"/>
+    </marker>
+    <marker id="hollow-ucDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#9C3D24" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-iaDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F6B28"/>
+    </marker>
+    <marker id="hollow-iaDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2F6B28" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-fwDark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F4E79"/>
+    </marker>
+    <marker id="hollow-fwDark" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F4E79" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Four ways to package the same code – and what enforces the rule</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">From "Clean Architecture" ch. 34 (Simon Brown): the devil is in the implementation details</tspan></text>
+  <line x1="40" y1="92" x2="1240" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <rect x="40" y="116" width="290" height="560" rx="12" fill="#fff" stroke="#5B6B7F" stroke-width="2.5"/>
+  <rect x="40" y="116" width="290" height="44" rx="12" fill="#5B6B7F" stroke="none" stroke-width="1.5"/>
+  <text x="185" y="145" font-size="15" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="185" dy="0">Package by layer</tspan></text>
+  <rect x="64" y="180" width="242" height="68" rx="8" fill="#EEF2F6" stroke="#C9D3DE" stroke-width="1.2"/>
+  <text x="185" y="219" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="185" dy="0">web</tspan></text>
+  <rect x="64" y="260" width="242" height="68" rx="8" fill="#EEF2F6" stroke="#C9D3DE" stroke-width="1.2"/>
+  <text x="185" y="299" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="185" dy="0">service</tspan></text>
+  <rect x="64" y="340" width="242" height="68" rx="8" fill="#EEF2F6" stroke="#C9D3DE" stroke-width="1.2"/>
+  <text x="185" y="379" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="185" dy="0">repository</tspan></text>
+  <text x="60" y="456" font-size="12.5" font-weight="800" fill="#5B6B7F" text-anchor="start"><tspan x="60" dy="0">Enforced by</tspan></text>
+  <text x="60" y="478" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">nothing – everything public</tspan></text>
+  <text x="60" y="514" font-size="12" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="60" dy="0">Try: CaseController imports SqlCaseGateway</tspan></text>
+  <rect x="60" y="526" width="250" height="32" rx="16" fill="#FFFFFF" stroke="#C8553D" stroke-width="1.8"/>
+  <text x="185" y="546.68" font-size="13" font-weight="600" fill="#C8553D" text-anchor="middle" class="mono"><tspan x="185" dy="0">compiles</tspan></text>
+  <text x="60" y="594" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">Hides the domain; any layer can skip</tspan><tspan x="60" dy="18.56">another.</tspan></text>
+  <rect x="342" y="116" width="290" height="560" rx="12" fill="#fff" stroke="#2A9D8F" stroke-width="2.5"/>
+  <rect x="342" y="116" width="290" height="44" rx="12" fill="#2A9D8F" stroke="none" stroke-width="1.5"/>
+  <text x="487" y="145" font-size="15" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="487" dy="0">Package by feature</tspan></text>
+  <rect x="366" y="180" width="242" height="228" rx="8" fill="#EEF2F6" stroke="#C9D3DE" stroke-width="1.2"/>
+  <text x="487" y="281" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="487" dy="0">casework/</tspan><tspan x="487" dy="18.2">controller · service</tspan><tspan x="487" dy="18.2">repository · model</tspan></text>
+  <text x="362" y="456" font-size="12.5" font-weight="800" fill="#5B6B7F" text-anchor="start"><tspan x="362" dy="0">Enforced by</tspan></text>
+  <text x="362" y="478" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="362" dy="0">package-private, partly</tspan></text>
+  <text x="362" y="514" font-size="12" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="362" dy="0">Try: CaseController imports SqlCaseGateway</tspan></text>
+  <rect x="362" y="526" width="250" height="32" rx="16" fill="#FFFFFF" stroke="#C8553D" stroke-width="1.8"/>
+  <text x="487" y="546.68" font-size="13" font-weight="600" fill="#C8553D" text-anchor="middle" class="mono"><tspan x="487" dy="0">compiles</tspan></text>
+  <text x="362" y="594" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="362" dy="0">Screams the domain, but rules and</tspan><tspan x="362" dy="18.56">plumbing share a package.</tspan></text>
+  <rect x="644" y="116" width="290" height="560" rx="12" fill="#fff" stroke="#1F3A5F" stroke-width="2.5"/>
+  <rect x="644" y="116" width="290" height="44" rx="12" fill="#1F3A5F" stroke="none" stroke-width="1.5"/>
+  <text x="789" y="145" font-size="15" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="789" dy="0">Ports &amp; adapters</tspan></text>
+  <rect x="668" y="180" width="242" height="68" rx="8" fill="#EEF2F6" stroke="#C9D3DE" stroke-width="1.2"/>
+  <text x="789" y="219" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="789" dy="0">domain</tspan></text>
+  <rect x="668" y="260" width="242" height="68" rx="8" fill="#EEF2F6" stroke="#C9D3DE" stroke-width="1.2"/>
+  <text x="789" y="299" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="789" dy="0">application + ports</tspan></text>
+  <rect x="668" y="340" width="242" height="68" rx="8" fill="#EEF2F6" stroke="#C9D3DE" stroke-width="1.2"/>
+  <text x="789" y="379" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="789" dy="0">adapter.in / adapter.out</tspan></text>
+  <text x="664" y="456" font-size="12.5" font-weight="800" fill="#5B6B7F" text-anchor="start"><tspan x="664" dy="0">Enforced by</tspan></text>
+  <text x="664" y="478" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="664" dy="0">ArchUnit in CI</tspan></text>
+  <text x="664" y="514" font-size="12" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="664" dy="0">Try: CaseController imports SqlCaseGateway</tspan></text>
+  <rect x="664" y="526" width="250" height="32" rx="16" fill="#FFFFFF" stroke="#3C9D5D" stroke-width="1.8"/>
+  <text x="789" y="546.68" font-size="13" font-weight="600" fill="#3C9D5D" text-anchor="middle" class="mono"><tspan x="789" dy="0">test fails</tspan></text>
+  <text x="664" y="594" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="664" dy="0">The plan/training lab. Strong if the</tspan><tspan x="664" dy="18.56">test is never skipped.</tspan></text>
+  <rect x="946" y="116" width="290" height="560" rx="12" fill="#fff" stroke="#E07A5F" stroke-width="2.5"/>
+  <rect x="946" y="116" width="290" height="44" rx="12" fill="#E07A5F" stroke="none" stroke-width="1.5"/>
+  <text x="1091" y="145" font-size="15" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="1091" dy="0">Module per ring (this lab)</tspan></text>
+  <rect x="970" y="180" width="242" height="48" rx="8" fill="#EEF2F6" stroke="#C9D3DE" stroke-width="1.2"/>
+  <text x="1091" y="209" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="1091" dy="0">entities.jar</tspan></text>
+  <rect x="970" y="240" width="242" height="48" rx="8" fill="#EEF2F6" stroke="#C9D3DE" stroke-width="1.2"/>
+  <text x="1091" y="269" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="1091" dy="0">usecases.jar</tspan></text>
+  <rect x="970" y="300" width="242" height="48" rx="8" fill="#EEF2F6" stroke="#C9D3DE" stroke-width="1.2"/>
+  <text x="1091" y="329" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="1091" dy="0">interface-adapters.jar</tspan></text>
+  <rect x="970" y="360" width="242" height="48" rx="8" fill="#EEF2F6" stroke="#C9D3DE" stroke-width="1.2"/>
+  <text x="1091" y="389" font-size="13" font-weight="400" fill="#1D2733" text-anchor="middle" class="mono"><tspan x="1091" dy="0">app.jar</tspan></text>
+  <text x="966" y="456" font-size="12.5" font-weight="800" fill="#5B6B7F" text-anchor="start"><tspan x="966" dy="0">Enforced by</tspan></text>
+  <text x="966" y="478" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="966" dy="0">the compiler + ArchUnit</tspan></text>
+  <text x="966" y="514" font-size="12" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="966" dy="0">Try: CaseController imports SqlCaseGateway</tspan></text>
+  <rect x="966" y="526" width="250" height="32" rx="16" fill="#FFFFFF" stroke="#3C9D5D" stroke-width="1.8"/>
+  <text x="1091" y="546.68" font-size="13" font-weight="600" fill="#3C9D5D" text-anchor="middle" class="mono"><tspan x="1091" dy="0">does not compile</tspan></text>
+  <text x="966" y="594" font-size="12.8" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="966" dy="0">Strongest; costs a few pom.xml files</tspan><tspan x="966" dy="18.56">and a little ceremony.</tspan></text>
+
+</svg>

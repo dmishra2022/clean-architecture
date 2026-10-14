@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1280 820" width="1280" height="820" role="img" aria-label="Context map">
+  <title>Context map</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Context map: World-Check screening landscape</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">Bounded contexts and the relationship pattern on every edge (U = upstream, D = downstream)</tspan></text>
+  <line x1="40" y1="92" x2="1240" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <rect x="60" y="140" width="250" height="90" rx="10" fill="#5B6B7F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="185" y="181.125" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="185" dy="0">API &amp; UI clients</tspan></text>
+  <text x="185" y="198.625" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="185" dy="0">banks, fintechs, WC One UI</tspan></text>
+  <rect x="470" y="300" width="340" height="130" rx="10" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="640" y="352.375" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="640" dy="0">Screening &amp; Case</tspan></text>
+  <text x="640" y="369.875" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="640" dy="0">THIS COURSE: ScreeningCase aggregate</tspan></text>
+  <text x="640" y="387.375" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="640" dy="0">core domain</tspan></text>
+  <rect x="980" y="140" width="260" height="100" rx="10" fill="#2A9D8F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1110" y="186.125" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1110" dy="0">Risk Intelligence Data</tspan></text>
+  <text x="1110" y="203.625" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1110" dy="0">profiles, sources, versions</tspan></text>
+  <rect x="980" y="330" width="260" height="100" rx="10" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1110" y="376.125" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1110" dy="0">Ongoing Monitoring</tspan></text>
+  <text x="1110" y="393.625" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1110" dy="0">rescreen triggers, alerts</tspan></text>
+  <rect x="60" y="330" width="250" height="100" rx="10" fill="#2A9D8F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="185" y="376.125" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="185" dy="0">Client &amp; Entitlements</tspan></text>
+  <text x="185" y="393.625" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="185" dy="0">groups, features, API keys</tspan></text>
+  <rect x="470" y="560" width="340" height="100" rx="10" fill="#2A9D8F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="640" y="606.125" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="640" dy="0">Audit &amp; Reporting</tspan></text>
+  <text x="640" y="623.625" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="640" dy="0">immutable history, evidence</tspan></text>
+  <rect x="60" y="560" width="250" height="100" rx="10" fill="#5B6B7F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="185" y="606.125" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="185" dy="0">Identity (generic)</tspan></text>
+  <text x="185" y="623.625" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="185" dy="0">OIDC / SSO provider</tspan></text>
+  <rect x="980" y="560" width="260" height="100" rx="10" fill="#5B6B7F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1110" y="606.125" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1110" dy="0">Notifications (generic)</tspan></text>
+  <text x="1110" y="623.625" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1110" dy="0">email, webhooks</tspan></text>
+  <line x1="310" y1="205" x2="470" y2="330" stroke="#1F3A5F" stroke-width="2.5" marker-end="url(#arrow-navy)"/>
+  <rect x="310" y="242" width="160" height="20" rx="10" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="390" y="256.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="390" dy="0">OHS / PL: REST API v1</tspan></text>
+  <line x1="980" y1="200" x2="812" y2="330" stroke="#2A9D8F" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <rect x="813" y="235" width="174" height="20" rx="10" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="900" y="249.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="900" dy="0">U → D, ACL in Screening</tspan></text>
+  <line x1="810" y1="380" x2="978" y2="380" stroke="#6D5BD0" stroke-width="2.5" marker-end="url(#arrow-purple)"/>
+  <rect x="848.5" y="352" width="91" height="20" rx="10" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="894" y="366.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="894" dy="0">events (PL)</tspan></text>
+  <path d="M980,410 C900,460 860,430 812,415" fill="none" stroke="#6D5BD0" stroke-width="2.5" stroke-dasharray="7 4" marker-end="url(#arrow-purple)"/>
+  <rect x="830.5" y="442" width="139" height="20" rx="10" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="900" y="456.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="900" dy="0">RescreenCase (C/S)</tspan></text>
+  <line x1="1110" y1="240" x2="1110" y2="330" stroke="#2A9D8F" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
+  <rect x="1054.5" y="276" width="111" height="20" rx="10" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="1110" y="290.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="1110" dy="0">ProfileUpdated</tspan></text>
+  <line x1="310" y1="380" x2="470" y2="370" stroke="#2A9D8F" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <rect x="317" y="390" width="146" height="20" rx="10" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="390" y="404.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="390" dy="0">Customer / Supplier</tspan></text>
+  <line x1="640" y1="430" x2="640" y2="560" stroke="#6D5BD0" stroke-width="2.5" marker-end="url(#arrow-purple)"/>
+  <rect x="567" y="485" width="146" height="20" rx="10" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="640" y="499.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="640" dy="0">events → Conformist</tspan></text>
+  <line x1="185" y1="560" x2="185" y2="432" stroke="#5B6B7F" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrow-slate)"/>
+  <rect x="119" y="487" width="132" height="20" rx="10" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="185" y="501.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="185" dy="0">Conformist (OIDC)</tspan></text>
+  <line x1="1110" y1="432" x2="1110" y2="560" stroke="#6D5BD0" stroke-width="2.2" marker-end="url(#arrow-purple)"/>
+  <rect x="1064.5" y="487" width="91" height="20" rx="10" fill="#fff" stroke="#C9D3DE" stroke-width="1"/>
+  <text x="1110" y="501.32" font-size="12" font-weight="600" fill="#1D2733" text-anchor="middle"><tspan x="1110" dy="0">alerts (PL)</tspan></text>
+  <rect x="40" y="700" width="1200" height="96" rx="10" fill="#EEF2F6" stroke="none" stroke-width="1.5"/>
+  <text x="60" y="728" font-size="14" font-weight="700" fill="#1F3A5F" text-anchor="start"><tspan x="60" dy="0">Patterns used</tspan></text>
+  <text x="60" y="752" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">OHS / PL – Open Host Service with a Published Language: one documented, versioned contract for many consumers.   ACL – Anti-Corruption Layer: translate upstream model at the border.</tspan></text>
+  <text x="60" y="774" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">Customer / Supplier – downstream needs are negotiated into upstream backlog.   Conformist – downstream adopts upstream model as-is (cheap, but couples).</tspan></text>
+
+</svg>

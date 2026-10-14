@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1320 800" width="1320" height="800" role="img" aria-label="Transactional outbox pattern">
+  <title>Transactional outbox pattern</title>
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="hollow-navy" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1F3A5F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2A9D8F"/>
+    </marker>
+    <marker id="hollow-teal" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#2A9D8F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C8553D"/>
+    </marker>
+    <marker id="hollow-red" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#C8553D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B7F"/>
+    </marker>
+    <marker id="hollow-slate" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#5B6B7F" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E9A23B"/>
+    </marker>
+    <marker id="hollow-amber" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#E9A23B" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3C9D5D"/>
+    </marker>
+    <marker id="hollow-green" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#3C9D5D" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6D5BD0"/>
+    </marker>
+    <marker id="hollow-purple" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6D5BD0" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1D2733"/>
+    </marker>
+    <marker id="hollow-ink" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#1D2733" stroke-width="1.5"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1D2733" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; white-space: pre; }
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="40" y="48" font-size="26" font-weight="800" fill="#1F3A5F" text-anchor="start"><tspan x="40" dy="0">Transactional outbox: never save a case without its events</tspan></text>
+  <text x="40" y="76" font-size="15" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="40" dy="0">The aggregate change and the event are written in the same database transaction</tspan></text>
+  <line x1="40" y1="92" x2="1280" y2="92" stroke="#C9D3DE" stroke-width="1"/>
+  <rect x="40" y="120" width="470" height="330" rx="14" fill="rgba(42,157,143,0.08)" stroke="#2A9D8F" stroke-width="2" stroke-dasharray="9 6"/>
+  <text x="60" y="148" font-size="13" font-weight="800" fill="#2A9D8F" text-anchor="start"><tspan x="60" dy="0">ONE TRANSACTION (JdbcUnitOfWork)</tspan></text>
+  <rect x="70" y="170" width="410" height="60" rx="10" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="275" y="196.475" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="275" dy="0">UPDATE screening_case</tspan></text>
+  <text x="275" y="213.27499999999998" font-size="12" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="275" dy="0">… WHERE id = ? AND version = ?</tspan></text>
+  <rect x="70" y="245" width="410" height="60" rx="10" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="275" y="271.475" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="275" dy="0">INSERT / UPDATE case_match</tspan></text>
+  <text x="275" y="288.27500000000003" font-size="12" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="275" dy="0">one row per match</tspan></text>
+  <rect x="70" y="320" width="410" height="60" rx="10" fill="#6D5BD0" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="275" y="346.475" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="275" dy="0">INSERT outbox_event</tspan></text>
+  <text x="275" y="363.27500000000003" font-size="12" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="275" dy="0">id = eventId, payload = published language JSON</tspan></text>
+  <text x="275" y="420" font-size="14" font-weight="700" fill="#2A9D8F" text-anchor="middle"><tspan x="275" dy="0">COMMIT – all three, or none</tspan></text>
+  <path d="M590,192 a85,12 0 0,0 170,0 v186 a85,12 0 0,1 -170,0 z" fill="#5B6B7F" filter="url(#shadow)"/>
+  <ellipse cx="675" cy="192" rx="85" ry="12" fill="#5B6B7F" stroke="#fff" stroke-opacity="0.5"/>
+  <text x="675" y="226" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="675" dy="0">H2 / Postgres</tspan></text>
+  <text x="675" y="248" font-size="12" font-weight="400" fill="#fff" text-anchor="middle" class="mono"><tspan x="675" dy="0">screening_case</tspan></text>
+  <text x="675" y="266" font-size="12" font-weight="400" fill="#fff" text-anchor="middle" class="mono"><tspan x="675" dy="0">case_match</tspan></text>
+  <text x="675" y="284" font-size="12" font-weight="400" fill="#fff" text-anchor="middle" class="mono"><tspan x="675" dy="0">outbox_event</tspan></text>
+  <line x1="512" y1="285" x2="588" y2="285" stroke="#2A9D8F" stroke-width="3" marker-end="url(#arrow-teal)"/>
+  <rect x="840" y="140" width="210" height="100" rx="10" fill="#E9A23B" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="945" y="177.375" font-size="15" font-weight="700" fill="#1D2733" text-anchor="middle"><tspan x="945" dy="0">OutboxRelay</tspan></text>
+  <text x="945" y="194.875" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="945" dy="0">@Scheduled 2s</tspan></text>
+  <text x="945" y="212.375" font-size="12.5" font-weight="400" fill="#1D2733" text-anchor="middle" opacity="0.95"><tspan x="945" dy="0">oldest first</tspan></text>
+  <path d="M762,240 C800,240 800,190 838,190" fill="none" stroke="#E9A23B" stroke-width="2.5" marker-end="url(#arrow-amber)"/>
+  <text x="790" y="175" font-size="12" font-weight="400" fill="#5B6B7F" text-anchor="start"><tspan x="790" dy="0">poll</tspan></text>
+  <rect x="840" y="290" width="210" height="100" rx="10" fill="#5B6B7F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="945" y="327.375" font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="945" dy="0">Broker topic</tspan></text>
+  <text x="945" y="344.875" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="945" dy="0">screening.case-events</tspan></text>
+  <text x="945" y="362.375" font-size="12.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="945" dy="0">key = caseId</tspan></text>
+  <line x1="945" y1="242" x2="945" y2="288" stroke="#5B6B7F" stroke-width="2.5" marker-end="url(#arrow-slate)"/>
+  <rect x="1110" y="130" width="180" height="76" rx="10" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1200" y="164.33749999999998" font-size="13.5" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1200" dy="0">Ongoing Monitoring</tspan></text>
+  <text x="1200" y="180.43749999999997" font-size="11.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1200" dy="0">dedupe by eventId</tspan></text>
+  <line x1="1052" y1="340" x2="1108" y2="168" stroke="#6D5BD0" stroke-width="2" marker-end="url(#arrow-purple)"/>
+  <rect x="1110" y="230" width="180" height="76" rx="10" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1200" y="264.3375" font-size="13.5" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1200" dy="0">Audit &amp; Reporting</tspan></text>
+  <text x="1200" y="280.4375" font-size="11.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1200" dy="0">dedupe by eventId</tspan></text>
+  <line x1="1052" y1="340" x2="1108" y2="268" stroke="#6D5BD0" stroke-width="2" marker-end="url(#arrow-purple)"/>
+  <rect x="1110" y="330" width="180" height="76" rx="10" fill="#1F3A5F" stroke="none" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1200" y="364.3375" font-size="13.5" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="1200" dy="0">Client notifications</tspan></text>
+  <text x="1200" y="380.4375" font-size="11.5" font-weight="400" fill="#fff" text-anchor="middle" opacity="0.95"><tspan x="1200" dy="0">dedupe by eventId</tspan></text>
+  <line x1="1052" y1="340" x2="1108" y2="368" stroke="#6D5BD0" stroke-width="2" marker-end="url(#arrow-purple)"/>
+  <rect x="40" y="480" width="620" height="290" rx="12" fill="#E5F4EA" stroke="none" stroke-width="1.5"/>
+  <text x="60" y="510" font-size="15" font-weight="700" fill="#3C9D5D" text-anchor="start"><tspan x="60" dy="0">Outbox: what happens on a crash</tspan></text>
+  <text x="60" y="548" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">Crash before COMMIT</tspan></text>
+  <text x="60" y="570" font-size="13.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">nothing saved, nothing sent ✓</tspan></text>
+  <text x="60" y="600" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">Crash after COMMIT, before publish</tspan></text>
+  <text x="60" y="622" font-size="13.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">relay sends it on restart ✓</tspan></text>
+  <text x="60" y="652" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">Crash after publish, before mark</tspan></text>
+  <text x="60" y="674" font-size="13.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">sent twice → consumer dedupes ✓</tspan></text>
+  <text x="60" y="704" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">Broker down</tspan></text>
+  <text x="60" y="726" font-size="13.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="60" dy="0">rows wait in outbox, retried in order ✓</tspan></text>
+  <rect x="680" y="480" width="600" height="290" rx="12" fill="#FBE9E5" stroke="none" stroke-width="1.5"/>
+  <text x="700" y="510" font-size="15" font-weight="700" fill="#C8553D" text-anchor="start"><tspan x="700" dy="0">Dual write (save, then kafka.send) – why not</tspan></text>
+  <text x="700" y="548" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="700" dy="0">Crash between save and send</tspan></text>
+  <text x="700" y="570" font-size="13.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="700" dy="0">case changed, event lost forever ✗</tspan></text>
+  <text x="700" y="600" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="700" dy="0">Send first, then DB fails</tspan></text>
+  <text x="700" y="622" font-size="13.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="700" dy="0">phantom event for a change that never happened ✗</tspan></text>
+  <text x="700" y="652" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="700" dy="0">Send inside the DB transaction</tspan></text>
+  <text x="700" y="674" font-size="13.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="700" dy="0">broker latency holds row locks; still not atomic ✗</tspan></text>
+  <text x="700" y="704" font-size="13.5" font-weight="700" fill="#1D2733" text-anchor="start"><tspan x="700" dy="0">Audit impact</tspan></text>
+  <text x="700" y="726" font-size="13.5" font-weight="400" fill="#1D2733" text-anchor="start"><tspan x="700" dy="0">monitoring/audit silently diverge from the case ✗</tspan></text>
+
+</svg>
